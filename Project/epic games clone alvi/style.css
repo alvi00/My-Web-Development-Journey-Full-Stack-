@@ -1,0 +1,1121 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-y: scroll;
+  background-color: #121212;
+}
+
+.navbar_one {
+  background-color: #18181c;
+  padding-top: 15px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  width: 100vw;
+  display: flex;
+}
+
+.left_side_logo {
+  display: flex;
+  align-items: center;
+}
+
+.left_side_logo img {
+  height: 36px;
+  padding-right: 12px;
+}
+
+.left_side_logo i {
+  color: white;
+  font-size: 13px;
+  opacity: 0.7;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+.left_side_logo i:hover {
+  transform: translate(0px, 2px);
+  opacity: 1;
+}
+
+.one {
+  transform: rotate(90deg);
+  font-size: 45px;
+  color: #303034;
+  cursor: pointer;
+}
+
+.left_side_write {
+  display: flex;
+  align-items: center;
+}
+
+.left_side_write_bold {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.left_side_write_normal {
+  margin: 0;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 13px;
+  background: transparent;
+  border-radius: 8px;
+  opacity: 0.7;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+.left_side_write_normal:hover {
+  background-color: #404044;
+  opacity: 1;
+}
+
+.right_side_write {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 50%;
+}
+
+.two {
+  color: white;
+  font-size: 23px;
+  opacity: 0.7;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+.two:hover {
+  opacity: 1;
+}
+
+.right_side_write i {
+  opacity: 0.7;
+  color: white;
+  margin-left: 30px;
+  background-color: #3c3c41;
+  padding: 10px;
+  border-radius: 50%;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+.right_side_write i:hover {
+  opacity: 1;
+}
+
+.right_side_write_button {
+  border: none;
+  border-radius: 8px;
+  background-color: #26bbff;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 30px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.right_side_write_button:hover {
+  background-color: #61cdff;
+}
+
+#check {
+  display: none;
+}
+
+.button_one {
+  position: absolute;
+  left: -350px;
+  color: white;
+  font-size: 25px;
+}
+
+.button_two {
+  position: absolute;
+  left: -350px;
+  color: white;
+  font-size: 25px;
+}
+
+
+.hidden_panel{
+   display: none;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideIn_hidden {
+    from {
+        transform: translateY(-15%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes slideIn_hidden_writing {
+    from {
+        transform: translateY(-40%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn_hidden_writing_download {
+    from {
+        transform: translateY(90%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.dropdown-toggle{
+  background-image: none;
+}
+
+.dropdown-menu{
+ padding: 10px;
+ background-color: #202024;
+}
+
+.dropdown-menu-dark h5{
+  padding:10px;
+  font-weight: 500;
+}
+
+.dropdown-menu-dark li i{
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+
+.dropdown-item{
+  border-radius: 8px;
+}
+.navbar_two {
+  background-color: #121212;
+  display: flex;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+#search{
+  background-color: #202020;
+  border: none;
+  border-radius: 23px;
+  padding: 10px;
+  color: white;
+  outline: none;
+}
+
+
+.navbar_two_write_one{
+  color: white;
+  padding: 10px;
+  margin-left: 40px;
+  font-size: 15px;
+}
+.navbar_two_write_two{
+  color: white;
+  padding: 10px;
+  margin-left: 15px;
+  opacity: 0.5;
+  font-size: 14px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.navbar_two_write_two:hover{
+  opacity: 1;
+}
+
+.navbar_two_write_three{
+  color: white;
+  padding: 10px;
+  margin-left: 15px;
+  opacity: 0.5;
+  font-size: 14px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.navbar_two_write_three:hover{
+  opacity: 1;
+}
+
+
+.nav_two_hide{
+  display: none;
+}
+
+
+
+/* this is test */
+
+.language-container {
+  position: relative;
+  display: inline-block;
+  z-index: 5;
+}
+
+.language-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #18181C;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 8px;
+  z-index: 10;
+  color: rgba(255, 255, 255, 0.479);
+}
+
+.language-container:hover .language-dropdown {
+  display: block;
+}
+
+.language-option {
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.language-option:hover {
+  background-color: #404044;
+}
+
+
+
+
+/* This part is for main class */
+.main_class {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.main_class_photo {
+  display: flex;
+  width: 100%;
+}
+
+.main_class_photo_one {
+  flex: 1; /* Equal width for each child */
+  margin: 0; /* Remove default margin for flex items */
+  overflow: hidden; /* Ensure images don't overflow */
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+.main_class_photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 20px;
+  border-radius: 50px;
+  transition: filter 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.main_class_photo_one:hover img {
+  filter: brightness(1.2); /* Adjust brightness as needed */
+}
+
+
+
+/* main class game starts here */
+
+/* Flex container for side-by-side layout */
+.pc_version_main_class_gmae {
+  display: flex;
+}
+
+.pc_Version_main_class_game_photo {
+  width: 70%; /* Adjust the width as needed */
+}
+
+.pc_Version_main_class_game_photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.pc_Version_main_class_game_photo img:hover{
+  filter: brightness(1.3);
+}
+
+
+.pc_Version_main_class_game_photo_controler {
+  width: 30%; /* Adjust the width as needed */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+/* here is a controller test */
+.pc_Version_main_class_game_photo_controler ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.pc_Version_main_class_game_photo_controler li {
+  margin-right: 0;
+  padding-left: 30px;
+  height: 100%;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.item-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.item-content img {
+  height: 53px;
+  width: 40px;
+  border-radius: 8px;
+}
+
+.item-name {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+  width: 100%;
+  height: 100%;
+  color: white;
+
+  align-items: center;
+  padding: 8px;
+  opacity: 0.8;
+
+}
+
+.pc_Version_main_class_game_photo_controler li:hover {
+  background-color: #252525;
+}
+.item-content:hover img {
+  filter: brightness(1.2);
+}
+
+.item-content:hover .item-name {
+  opacity: 1;
+}
+
+.marg{
+  margin-bottom: 80px;
+}
+
+/* controller test ends here */
+
+/* ends here */
+
+.hide_pc {
+  display: none;
+}
+
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.text_and_button{
+  display: flex;
+  align-items: center;
+}
+
+.card{
+  width: 20%;
+  background-color: transparent;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out
+}
+
+.card:hover{
+  filter: blur(0.5px);
+  filter: brightness(1.2);
+}
+
+.overlay-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  color: white;
+  padding: 10px;
+}
+
+.card:hover .overlay-icon {
+  display: block;
+}
+
+
+.card img{
+  border-radius: 8px;
+}
+
+.card-text{
+  padding: 10px;
+}
+
+.special p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0074E4;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  padding: 3px;
+  margin-right: 8px;
+}
+
+.op{
+  opacity: 0.7;
+  font-size: 9px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.lazna{
+  font-weight: 800;
+  color: white;
+}
+
+.text{
+  text-decoration: line-through;
+  opacity: 0.7;
+  color: white;
+  margin-right: 8px;
+}
+
+.last_text{
+  color: white;
+  font-weight: 600;
+}
+.space{
+  color: white;
+  opacity: 0.7;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.space:hover{
+  opacity: 1;
+}
+
+.big_cards{
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.big_card img{
+  width: 100%;
+  border-radius: 40px;
+  padding: 20px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out
+}
+
+.big_card img:hover{
+  filter: brightness(1.2);
+}
+
+.bigcard-text{
+  padding-left: 50px;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+.big_op{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.biglazna{
+  color: white;
+  opacity: 0.7;
+}
+
+.biglast_text{
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.biglast_text:hover{
+  text-decoration: underline;
+}
+
+
+
+.game_tile{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.game_tile_first{
+  width: 30%;
+}
+
+.game_tile_second{
+  width: 30%;
+}
+
+.game_tile_third{
+  width: 30%;
+}
+.vertical-line {
+  border: 2px solid white; /* Change color as needed */
+}
+
+/* this is the part of a tile */
+.game_tile_first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.game_tile_second{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.game_tile_third{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lo{
+  opacity: 0.7;
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-left: 15px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.tile:hover{
+  background-color: #2A2A2A;
+}
+.tile img {
+  width: 20%;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+.text-row {
+  margin-bottom: 5px; /* Adjust margin as needed */
+  color: white;
+  font-weight: 500;
+}
+
+
+.upper_tile_text{
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.upper_tile_text button{
+  border: 1px white solid;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.upper_tile_text button:hover{
+  background-color: #383838;
+}
+
+.upper_tile_text h5{
+  color: white;
+}
+/* tile ends here */
+
+
+
+.foot{
+  display: flex;
+  background-color: #202020;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.foot_links{
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.link_text{
+  padding-right: 10%;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.link_text:hover{
+  color: blue;
+}
+
+.link_icon{
+  padding-left: 10px;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.link_icon:hover{
+  opacity: 1;
+}
+
+.link_icon_Cover{
+  margin-left: 35%;
+  font-size: 30px;
+}
+.foot_Write p{
+
+  color: white;
+  opacity: 0.7;
+  text-align: justify;
+  margin-top: 50px;
+}
+/* After 1350px */
+
+@media (max-width: 1350px) {
+    /* Other styles inside the media query */
+
+    body {
+      overflow-y: scroll;
+      background-color: #121212;
+    }
+
+    .marg{
+      margin-bottom: 0;
+    }
+    
+
+    #check:checked ~ .hidden_panel {
+        display: block;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        color: white;
+        background-color: #101014;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #check:checked ~ .navbar_one,
+    #check:checked ~ .navbar_two,
+    #check:checked ~ .main_class {
+        display: none;
+    }
+
+    .button_one {
+        position: absolute;
+        top: 2%;
+        left: 90%;
+        color: white;
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+    .button_two {
+        position: absolute;
+        top: 2%;
+        left: 90%;
+        color: white;
+        font-size: 25px;
+        opacity: 0;
+        margin-right: 10px;
+    }
+
+    
+
+    #check:checked ~ .button_one {
+        opacity: 0;
+    }
+
+    #check:checked ~ .hidden_panel .button_two {
+        opacity: 1;
+    }
+
+    #check:checked ~ .hidden_panel .left_side_write_bold_hidden_panel {
+        animation: slideIn 0.3s ease-in-out;
+    }
+
+    
+    .left_side_write_bold_hidden_panel {
+        color: white;
+        font-weight: 900;
+        font-size: 20px;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+
+    .hidden_panel_icons{
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-top: 100px;
+        padding-left:75% ;  
+        animation: slideIn_hidden 0.3s ease-in-out; 
+    }
+    .hidden_one{
+        padding-top: 10px;
+        opacity: 0.8;
+        font-size: 30px;
+        color: white;
+    }
+
+    .hidden_two{
+        padding: 10px;
+        background-color: #303034;
+        border-radius: 50%;
+        opacity: 0.7;
+        font-size: 20px;
+    }
+
+    .hidden_panel_writing{
+        display: flex;
+        flex-direction: column;
+        opacity: 1;
+        font-size: 13px;
+        cursor: pointer;
+        padding: 5%;
+    }
+    .hidden_write_one{
+        background-color: #202024;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        color: white;
+        border-radius: 15px;
+        animation: slideIn_hidden_writing 0.3s ease-in-out; 
+    }
+
+    .hidden_panel_download{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        animation: slideIn_hidden_writing_download 0.3s ease-in-out;
+    }
+    .right_side_write_button_hidden{
+        border: none;
+        border-radius: 8px;
+        background-color: #61cdff;
+        font-size: 20px;
+        font-weight: 500;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+    
+    .navbar_two{
+      margin: 0;
+      display: flex;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+
+    .nav_two_hide_one{
+      display: block;
+    }
+
+    .dropdown-toggle{
+      color: white;
+      margin-left: 90%;
+      margin-top: 15px;
+    }
+    .dropdown-menu{
+      background-color: #121212;
+      color: white;
+      
+    }
+    .dropdown-item{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 300px;
+      color: white;
+    }
+    
+    .nav_two_second_mobile{
+      opacity: 0.5;
+    }
+
+    .nav_two_third_mobile{
+      opacity: 0.5;
+    }
+
+  /* This is another test */
+  .navbar_two_icon {
+    color: white;
+    opacity: 0.5;
+    margin-left: 5%;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .navbar_two_icon:hover {
+    opacity: 1;
+  }
+  
+  /* Additional styles for the search box and close button in the panel */
+  .offcanvas {
+    width: 100vw; /* Take full width of the screen */
+    height: 100%; /* Take full height of the screen */
+    position: absolute;
+  }
+  
+  .offcanvas-body {
+    height: 100%; /* Allow the body to take full height */
+    padding: 15px;
+  }
+  
+  #searchInPanel {
+    background-color: #202020;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    outline: none;
+    width: 100%; /* Make the search box take full width */
+  }
+
+  .alvi{
+    padding-left: 40px;
+  }
+  
+  
+    /* ends here */
+    /* THIS IS TEST */
+    .language-button {
+      margin: 0;
+    }
+    
+    .language-option {
+      padding: 0;
+      cursor: pointer;
+    }
+    
+    /* Customize as needed */
+    .offcanvas {
+      width: 250px;
+    }
+
+    .offcanvas-header{
+      background-color: #101014;
+    }
+    .offcanvas-title{
+      color: white;
+    }
+    .offcanvas-body{
+      background-color: #18181C;
+    }
+    .anas{
+      z-index: 10;
+    }
+    .language-option {
+      padding: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+      border-radius: 5px;
+      color: white;
+    }
+    
+    .language-option:hover {
+      background-color: #404044;
+    }
+
+
+    /* This part is for main class mobile version*/
+
+    .main_class {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center items horizontally */
+    }
+
+    .hide_pc {
+      display: block;
+    }
+    /* .carousel-indicators{
+      display: block;
+      position: absolute;
+      left: 20%;
+      top: 90%;
+      left: 50px;
+    } */
+
+    .carousel-indicators {
+      display: flex;
+      list-style: none;
+      justify-content: center; /* Center items horizontally */
+    }
+    .pad{
+      padding-bottom: 20px;
+      margin-bottom: 50px;
+    }
+  
+    .card {
+      width: 100%;
+      margin: 20px 0; 
+    }
+    
+    .space{
+      padding-left: 30px;
+      opacity: 1;
+    }
+
+    .big_op{
+      padding-top: 15px;
+    }
+    .big_cards{
+      margin-bottom: 80px;
+    }
+
+    .game_tile_one{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 50px;
+      flex-direction: column;
+    }
+
+    .game_tile_first{
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .game_tile_second{
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .game_tile_third{
+      width: 100%;
+      margin-bottom: 80px;
+    }
+    .upper_tile_text{
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+
+    .link_text{
+      padding-right: 0;
+    }
+    .link_icon_Cover{
+      margin-left: 0;
+    }
+    .link_icon_Cover{
+      display: flex;
+    }
+    
+/* ends here */
+
+    
+}

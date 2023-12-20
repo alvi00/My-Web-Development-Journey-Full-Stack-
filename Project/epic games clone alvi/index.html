@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Here starts the cdn link of font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- End here -->
+
+    <!-- This is the cdn link of bootstap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+  "
+    />
+    <!-- Add your Bootstrap CSS link if not already included -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- End here -->
+
+    <link rel="icon" href="./assests/logo.png" />
+    <title>
+      Epic Games Store | Download & Play PC Games, Mods, DLC & More - Epic Games
+    </title>
+
+    <!-- This link for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700&family=Noto+Serif:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,500&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts end here -->
+
+    <!-- google icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <!-- google icons ends here-->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="check" />
+    <label for="check" class="button_one"
+      ><i class="fa-solid fa-bars"></i
+    ></label>
+
+    <!-- navbar_one starts here -->
+    <div class="navbar_one">
+      <div class="left_side_logo">
+        <img src="./assests/logo.png" alt="" />
+
+        <!-- this is from bootstap for dropdown -->
+        <div class="dropdown">
+          <button
+            class="btn custom-dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <h5>Play</h5>
+            <li>
+              <a class="dropdown-item" href="#"
+                ><i class="fa-solid fa-dice"></i>Dice</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"
+                ><i class="fa-solid fa-table-tennis-paddle-ball"></i>Table
+                Tennis</a
+              >
+            </li>
+            <h5>Discover</h5>
+            <li>
+              <a class="dropdown-item" href="#"
+                ><i class="fa-brands fa-steam"></i>Steam</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"
+                ><i class="fa-brands fa-playstation"></i>PlayStation</a
+              >
+            </li>
+            <h5>Create</h5>
+            <li>
+              <a class="dropdown-item" href="#"
+                ><i class="fa-brands fa-twitch"></i>Twitch</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"
+                ><i class="fa-brands fa-fantasy-flight-games"></i>Fantasy Fight
+                Games</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- ends here dropdown -->
+
+        <span class="material-symbols-outlined one"> horizontal_rule </span>
+      </div>
+
+      <div class="left_side_write">
+        <a href="#" class="left_side_write_bold">STORE</a>
+        <a href="#" class="left_side_write_normal hide">Distribution</a>
+        <a href="#" class="left_side_write_normal hide">Support</a>
+        <a href="#" class="left_side_write_normal hide">Unreal Engine</a>
+      </div>
+
+      <div class="right_side_write">
+        <!-- this part is on test -->
+        <div class="language-container">
+          <span class="material-symbols-outlined two hide"> language </span>
+          <div class="language-dropdown">
+            <div class="language-option">English</div>
+            <div class="language-option">Spanish</div>
+            <div class="language-option">French</div>
+            <div class="language-option">German</div>
+            <div class="language-option">Chinese</div>
+            <div class="language-option">Japanese</div>
+            <div class="language-option">Korean</div>
+            <div class="language-option">Russian</div>
+            <div class="language-option">Arabic</div>
+            <div class="language-option">Hindi</div>
+          </div>
+        </div>
+
+        <!-- <span class="material-symbols-outlined two hide"> language </span> -->
+
+        <!-- ends here -->
+        <i class="fa-regular fa-user hide"></i>
+        <button class="right_side_write_button hide">Download</button>
+      </div>
+    </div>
+    <!-- navbar_one ends here -->
+
+    <!-- Hidden panel starts here -->
+    <div class="hidden_panel">
+      <label for="check" class="button_two"
+        ><i class="fa-solid fa-xmark"></i
+      ></label>
+      <a href="#" class="left_side_write_bold_hidden_panel">STORE</a>
+
+      <div class="hidden_panel_icons">
+        <!-- THis is test -->
+        <button
+          class="btn language-button"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasLanguage"
+          aria-controls="offcanvasLanguage"
+        >
+          <span class="material-symbols-outlined hidden_one"> language </span>
+        </button>
+
+        <!-- Offcanvas for Language Options -->
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasLanguage"
+          aria-labelledby="offcanvasLanguageLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLanguageLabel">
+              Language Options
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <!-- Language options -->
+            <div class="language-option">English</div>
+            <div class="language-option">Spanish</div>
+            <div class="language-option">French</div>
+            <div class="language-option">German</div>
+            <div class="language-option">Chinese</div>
+            <div class="language-option">Japanese</div>
+            <div class="language-option">Korean</div>
+            <div class="language-option">Russian</div>
+            <div class="language-option">Arabic</div>
+            <div class="language-option">Hindi</div>
+          </div>
+        </div>
+
+        <!-- ends here -->
+        <!-- <span class="material-symbols-outlined hidden_one"> language </span> -->
+        <i class="fa-regular fa-user hidden_two"></i>
+      </div>
+
+      <div class="hidden_panel_writing">
+        <a href="#" class="hidden_write_one">Distribution</a>
+        <a href="#" class="hidden_write_one">Support</a>
+        <a href="#" class="hidden_write_one">Unreal Engine</a>
+      </div>
+
+      <div class="hidden_panel_download">
+        <button class="right_side_write_button_hidden">Download</button>
+      </div>
+    </div>
+    <!-- Hidden panel ends here -->
+
+    <!-- navbar_two starts here  -->
+    <div class="navbar_two">
+      <input
+        type="text"
+        id="search"
+        name="q"
+        placeholder="&nbsp &nbsp Search store"
+        class="hide"
+      />
+      <a href="" class="navbar_two_write_one hide">Discover</a>
+      <a href="" class="navbar_two_write_two hide">Browse</a>
+      <a href="" class="navbar_two_write_three hide">News</a>
+
+      <!-- this part is for mobile of nav bar two  -->
+      <!-- This part is for test -->
+      <button
+        class="btn nav_two_hide nav_two_hide_one"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasTop"
+        aria-controls="offcanvasTop"
+      >
+        <i
+          class="fa-solid fa-magnifying-glass nav_two_hide nav_two_hide_one navbar_two_icon"
+        ></i>
+      </button>
+
+      <div
+        class="offcanvas offcanvas-top"
+        tabindex="-1"
+        id="offcanvasTop"
+        aria-labelledby="offcanvasTopLabel"
+      >
+        <div class="offcanvas-body">
+          <!-- Search box and close button side by side -->
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <input
+              type="text"
+              id="searchInPanel"
+              placeholder="Search store"
+              class="flex-grow-1"
+            />
+            <button
+              type="button"
+              class="btn-close btn-close-white alvi"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <!-- Your additional content goes here -->
+        </div>
+      </div>
+
+      <!-- <i class="fa-solid fa-magnifying-glass nav_two_hide nav_two_hide_one navbar_two_icon"></i> -->
+      <!-- ends here -->
+
+      <!-- this is drop down of mobile -->
+      <div class="dropdown-center nav_two_hide nav_two_hide_one">
+        <button
+          class="btn dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Discover
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item nav_two_first_mobile" href="#">Discover</a>
+          </li>
+          <hr />
+          <li>
+            <a class="dropdown-item nav_two_second_mobile" href="#">Browse</a>
+          </li>
+          <hr />
+          <li>
+            <a class="dropdown-item nav_two_third_mobile" href="#">News</a>
+          </li>
+          <li><hr class="dropdown-divider" /></li>
+        </ul>
+      </div>
+      <!-- drop down of mobile ends here -->
+
+      <!-- nav bar two mobile ends here -->
+    </div>
+    <!-- navbar_two ends here -->
+
+    <!-- main class starts here  -->
+
+    <div class="main_class">
+      <!-- pc version of main class photo -->
+      <div class="main_class_photo hide">
+        <div class="main_class_photo_one hide">
+          <img src="./assests/photo1.jpg" alt="" />
+        </div>
+        <div class="main_class_photo_one hide">
+          <img src="./assests/photo2.jpg" alt="" />
+        </div>
+        <div class="main_class_photo_one hide">
+          <img src="./assests/photo3.jpg" alt="" />
+        </div>
+      </div>
+      <!-- pc version of main class photo ends here -->
+
+      <!-- pc_version_main_class_gmae starts here -->
+      <div class="pc_version_main_class_gmae marg">
+        <!-- pc version of the game photo starts here -->
+        <div class="pc_Version_main_class_game_photo hide">
+          <!-- Bootstrap Carousel -->
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img
+                  src="./assests/main_class_game_photo1.jpg"
+                  class="d-block w-100"
+                  alt="Slide 1"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="./assests/main_class_game_photo2.jpg"
+                  class="d-block w-100"
+                  alt="Slide 2"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="./assests/main_class_game_photo3.jpg"
+                  class="d-block w-100"
+                  alt="Slide 3"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="./assests/main_class_game_photo4.jpg"
+                  class="d-block w-100"
+                  alt="Slide 4"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="./assests/main_class_game_photo5.jpg"
+                  class="d-block w-100"
+                  alt="Slide 5"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="./assests/main_class_game_photo6.jpg"
+                  class="d-block w-100"
+                  alt="Slide 5"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- pc version game photo control start here -->
+        <div class="pc_Version_main_class_game_photo_controler hide">
+          <!-- Your content for pc_Version_main_class_game_photo_controler, e.g., a list of items -->
+          <ul>
+            <li>
+              <div class="item-content">
+                <img src="./assests/controler_photo1.jpg" alt="Item 1" />
+                <span class="item-name">Alan Wake 2</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <img src="./assests/controler_photo2.jpg" alt="Item 2" />
+                <span class="item-name">EA SPORTS FC<sup>TM</sup> 24</span>
+              </div>
+            </li>
+            <!-- Add more items as needed -->
+            <li>
+              <div class="item-content">
+                <img src="./assests/controler_photo3.jpg" alt="Item 2" />
+                <span class="item-name"
+                  >lOTR: Return to Moria<sup>TM</sup></span
+                >
+              </div>
+            </li>
+            <!-- Add more items as needed -->
+            <li>
+              <div class="item-content">
+                <img src="./assests/controler_photo4.jpg" alt="Item 2" />
+                <span class="item-name">Assassin's Creed Mirage</span>
+              </div>
+            </li>
+            <!-- Add more items as needed -->
+            <li>
+              <div class="item-content">
+                <img src="./assests/controler_photo5.jpg" alt="Item 2" />
+                <span class="item-name">Dead Island 2</span>
+              </div>
+            </li>
+            <!-- Add more items as needed -->
+            <li>
+              <div class="item-content">
+                <img src="./assests/controler_photo6.jpg" alt="Item 2" />
+                <span class="item-name">Avatar: Frontiers of...</span>
+              </div>
+            </li>
+            <!-- Add more items as needed -->
+          </ul>
+        </div>
+        <!-- pc version game photo control ends here -->
+      </div>
+      <!-- pc_version_main_class_gmae ends here -->
+
+      <!-- pc version of cards starts here -->
+      <h4 class="hide space">Developer Spotlight - Remedy Entertainment</h4>
+      <div class="cards hide">
+        <!-- Card 1 -->
+        <div class="card">
+          <img src="./assests/card_photo1.jpeg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="card-text">
+            <p class="op">BASE GAME</p>
+            <p class="lazna">Alan Wake 2</p>
+            <div class="text_and_button">
+              <div class="special"><p>&nbsp;&nbsp;-20%&nbsp;&nbsp;</p></div>
+              <p class="text">$45.99</p>
+              <p class="last_text">$36.79</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <img src="./assests/card_photo2.jpeg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="card-text">
+            <p class="op">EDITION</p>
+            <p class="lazna">Alan Wake 2 Deluxe...</p>
+            <div class="text_and_button">
+              <div class="special"><p>&nbsp;&nbsp;-20%&nbsp;&nbsp;</p></div>
+              <p class="text">$64.39</p>
+              <p class="last_text">$51.51</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <img src="./assests/card_photo3.jpeg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="card-text">
+            <p class="op">BASE GAME</p>
+            <p class="lazna">Ghostrunner2</p>
+            <div class="text_and_button">
+              <div class="special"><p>&nbsp;&nbsp;-15%&nbsp;&nbsp;</p></div>
+              <p class="text">$24.09</p>
+              <p class="last_text">$20.47</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+          <img src="./assests/card_photo4.jpeg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="card-text">
+            <p class="op">BASE GAME</p>
+            <p class="lazna">Hogwarts Legacy</p>
+            <div class="text_and_button">
+              <div class="special"><p>&nbsp;&nbsp;-40%&nbsp;&nbsp;</p></div>
+              <p class="text">$59.99</p>
+              <p class="last_text">$35.99</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card">
+          <img src="./assests/card_photo5.jpeg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="card-text">
+            <p class="op">BASE GAME</p>
+            <p class="lazna">The Crew Motorfest</p>
+            <div class="text_and_button">
+              <div class="special"><p>&nbsp;&nbsp;-50%&nbsp;&nbsp;</p></div>
+              <p class="text">$50.99</p>
+              <p class="last_text">$36.79</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- pc version of cards ends here -->
+
+      <!-- pc version of big card starts here -->
+
+      <div class="big_cards hide">
+        <!-- Card 4 -->
+        <div class="big_card hide">
+          <img src="./assests/big_cards_photo1.jpg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="bigcard-text">
+            <p class="big_op">Epic Rewards Gets A Boost</p>
+            <p class="biglazna">
+              Celebrate the Holiday Sale with Epic Rewards boosted to 10% for a
+              limited time!
+            </p>
+            <p class="biglast_text">Earn Now</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="big_card hide">
+          <img src="./assests/big_cards_photo2.jpg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="bigcard-text">
+            <p class="big_op">Holiday Sale Guide</p>
+            <p class="biglazna">
+              Read about our deep discounts, limitless 33% Epic Coupons, a boost
+              to 10% for Epic Rewards, free games, and free cosmetics!
+            </p>
+            <p class="biglast_text">Read More</p>
+          </div>
+        </div>
+      </div>
+      <!-- pc version of big card ends here -->
+
+      <!-- pc version of game tile starts here -->
+
+      <div class="game_tile hide">
+        <!-- first row start here -->
+        <div class="game_tile_first hide">
+          <div class="upper_tile_text">
+            <h5>Top Sellers</h5>
+            <button>VIEW MORE</button>
+          </div>
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_1_photo_1.jpg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Red Dead Redemption 2</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-87%&nbsp;&nbsp;</p></div>
+                <p class="text">$44.99</p>
+                <p class="last_text">$14.84</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_1_photo_2.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">EA SPORTS FC™ 24...</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-60%&nbsp;&nbsp;</p></div>
+                <p class="text">$69.99</p>
+                <p class="last_text">$27.99</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_1_photo_3.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">It Takes Two</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-75%&nbsp;&nbsp;</p></div>
+                <p class="text">$39.99</p>
+                <p class="last_text">$9.99</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_1_photo_4.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Fortnite</div>
+              <div class="text_and_button">
+                <p class="last_text">Free</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_1_photo_5.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Rocket League®</div>
+              <div class="text_and_button">
+                <p class="last_text">Free</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+        </div>
+        <!-- first row ends here -->
+
+        <!-- secons row starts here -->
+        <div class="game_tile_second hide">
+          <div class="upper_tile_text">
+            <h5>Most Played</h5>
+            <button>VIEW MORE</button>
+          </div>
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_2_photo_1.jpg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Grand Theft Auto V...</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-50%&nbsp;&nbsp;</p></div>
+                <p class="text">$19.99</p>
+                <p class="last_text">$9.99</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_2_photo_2.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">VALORANT</div>
+              <div class="text_and_button">
+                <p class="last_text">Free</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_2_photo_3.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Black Myth: Wukong</div>
+              <div class="text_and_button">
+                <p class="last_text">Free</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_2_photo_4.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Homeworld 3</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-40%&nbsp;&nbsp;</p></div>
+                <p class="text">$29.99</p>
+                <p class="last_text">$12.99</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_2_photo_5.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">SKULL AND BONES™</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-50%&nbsp;&nbsp;</p></div>
+                <p class="text">$87.99</p>
+                <p class="last_text">$43.99</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+        </div>
+        <!-- secons row ends here -->
+
+        <!-- third row starts here -->
+        <div class="game_tile_third hide">
+          <div class="upper_tile_text">
+            <h5>Top Upcoming Wishlisted</h5>
+            <button>VIEW MORE</button>
+          </div>
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_3_photo_1.jpg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Indoorlands</div>
+              <div class="text_and_button">
+                <p class="last_text lo">Available 12/18/23</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_3_photo_2.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Frostpunk 2</div>
+              <div class="text_and_button">
+                <p class="last_text lo">Cooming Soon</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_3_photo_3.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">The Wolf Among Us 2</div>
+              <div class="text_and_button">
+                <p class="last_text lo">Cooming Soon</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_3_photo_4.jpg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Virtual Rides 3</div>
+              <div class="text_and_button">
+                <p class="last_text lo">Available 12/18/23</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_3_photo_5.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Don't Turn Back</div>
+              <div class="text_and_button">
+                <p class="last_text lo">Available 12/18/23</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+        </div>
+
+        <!-- third row ends here -->
+      </div>
+
+      <!-- pc version of game tile ends here -->
+
+      <!-- Mobile version of main class photo -->
+      <div
+        id="mainClassPhotoCarousel"
+        class="carousel slide main_class_photo"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators hide_pc">
+          <button
+            type="button"
+            data-bs-target="#mainClassPhotoCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mainClassPhotoCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mainClassPhotoCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner hide_pc">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img
+              src="./assests/photo1.jpg"
+              class="d-block w-100"
+              alt="Photo 1"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./assests/photo2.jpg"
+              class="d-block w-100"
+              alt="Photo 2"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./assests/photo3.jpg"
+              class="d-block w-100"
+              alt="Photo 3"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile version of game photo control -->
+      <div
+        id="gamePhotoControlCarousel"
+        class="carousel slide main_class_photo pad"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators hide_pc">
+          <button
+            type="button"
+            data-bs-target="#gamePhotoControlCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#gamePhotoControlCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#gamePhotoControlCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#gamePhotoControlCarousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#gamePhotoControlCarousel"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#gamePhotoControlCarousel"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+        <div class="carousel-inner hide_pc">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img
+              src="./assests/mobile_main_class_photo1.jpg"
+              class="d-block w-100"
+              alt="Photo 1"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./assests/mobile_main_class_photo2.jpg"
+              class="d-block w-100"
+              alt="Photo 2"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./assests/mobile_main_class_photo3.jpg"
+              class="d-block w-100"
+              alt="Photo 3"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./assests/mobile_main_class_photo4.jpg"
+              class="d-block w-100"
+              alt="Photo 4"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./assests/mobile_main_class_photo5.jpg"
+              class="d-block w-100"
+              alt="Photo 5"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./assests/mobile_main_class_photo6.jpg"
+              class="d-block w-100"
+              alt="Photo 6"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- mobile version of cards starts here -->
+
+      <h4 class="hide_pc space">Developer Spotlight - Remedy Entertainment</h4>
+      <div class="cards hide_pc">
+        <!-- Card 1 -->
+        <div class="card hide_pc">
+          <img src="./assests/card_photo1.jpeg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="card-text">
+            <p class="op">BASE GAME</p>
+            <p class="lazna">Alan Wake 2</p>
+            <div class="text_and_button">
+              <div class="special"><p>&nbsp;&nbsp;-20%&nbsp;&nbsp;</p></div>
+              <p class="text">$45.99</p>
+              <p class="last_text">$36.79</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card hide_pc">
+          <img src="./assests/card_photo2.jpeg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="card-text">
+            <p class="op">EDITION</p>
+            <p class="lazna">Alan Wake 2 Deluxe...</p>
+            <div class="text_and_button">
+              <div class="special"><p>&nbsp;&nbsp;-20%&nbsp;&nbsp;</p></div>
+              <p class="text">$64.39</p>
+              <p class="last_text">$51.51</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card hide_pc">
+          <img src="./assests/card_photo3.jpeg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="card-text">
+            <p class="op">BASE GAME</p>
+            <p class="lazna">Ghostrunner2</p>
+            <div class="text_and_button">
+              <div class="special"><p>&nbsp;&nbsp;-15%&nbsp;&nbsp;</p></div>
+              <p class="text">$24.09</p>
+              <p class="last_text">$20.47</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card hide_pc">
+          <img src="./assests/card_photo4.jpeg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="card-text">
+            <p class="op">BASE GAME</p>
+            <p class="lazna">Hogwarts Legacy</p>
+            <div class="text_and_button">
+              <div class="special"><p>&nbsp;&nbsp;-40%&nbsp;&nbsp;</p></div>
+              <p class="text">$59.99</p>
+              <p class="last_text">$35.99</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card hide_pc">
+          <img src="./assests/card_photo5.jpeg" alt="Card Image 5" />
+          <div class="overlay-icon">
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="card-text">
+            <p class="op">BASE GAME</p>
+            <p class="lazna">The Crew Motorfest</p>
+            <div class="text_and_button">
+              <div class="special"><p>&nbsp;&nbsp;-50%&nbsp;&nbsp;</p></div>
+              <p class="text">$50.99</p>
+              <p class="last_text">$36.79</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- mobile version of cards ends here -->
+
+      <!-- mobile version of big card starts here -->
+
+      <!-- Big Cards Carousel -->
+      <div
+        id="bigCardsCarousel"
+        class="carousel slide big_cards d-xl-none"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <!-- Card 1 -->
+          <div class="carousel-item active" data-bs-interval="1500">
+            <img
+              src="./assests/big_cards_photo1.jpg"
+              class="d-block w-100"
+              alt="Big Card 1"
+            />
+            <div class="overlay-icon">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+            <div class="bigcard-text">
+              <p class="big_op">Epic Rewards Gets A Boost</p>
+              <p class="biglazna">
+                Celebrate the Holiday Sale with Epic Rewards boosted to 10% for
+                a limited time!
+              </p>
+              <p class="biglast_text">Earn Now</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="carousel-item" data-bs-interval="1500">
+            <img
+              src="./assests/big_cards_photo2.jpg"
+              class="d-block w-100"
+              alt="Big Card 2"
+            />
+            <div class="overlay-icon">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+            <div class="bigcard-text">
+              <p class="big_op">Holiday Sale Guide</p>
+              <p class="biglazna">
+                Read about our deep discounts, limitless 33% Epic Coupons, a
+                boost to 10% for Epic Rewards...
+              </p>
+              <p class="biglast_text">Read More</p>
+            </div>
+          </div>
+
+          <!-- Add more carousel items as needed -->
+        </div>
+        <!-- Add navigation controls if needed -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#bigCardsCarousel"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon hide_pc"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#bigCardsCarousel"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon hide_pc"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- mobile version of big card ends here -->
+
+      <!-- mobile version of game tiles stars here -->
+
+      <div class="game_tile_one hide_pc">
+        <!-- first row start here -->
+        <div class="game_tile_first hide_pc">
+          <div class="upper_tile_text">
+            <h5>Top Sellers</h5>
+            <button>VIEW MORE</button>
+          </div>
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_1_photo_1.jpg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Red Dead Redemption 2</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-87%&nbsp;&nbsp;</p></div>
+                <p class="text">$44.99</p>
+                <p class="last_text">$14.84</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_1_photo_2.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">EA SPORTS FC™ 24...</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-60%&nbsp;&nbsp;</p></div>
+                <p class="text">$69.99</p>
+                <p class="last_text">$27.99</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_1_photo_3.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">It Takes Two</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-75%&nbsp;&nbsp;</p></div>
+                <p class="text">$39.99</p>
+                <p class="last_text">$9.99</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_1_photo_4.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Fortnite</div>
+              <div class="text_and_button">
+                <p class="last_text">Free</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_1_photo_5.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Rocket League®</div>
+              <div class="text_and_button">
+                <p class="last_text">Free</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+        </div>
+        <!-- first row ends here -->
+
+        <!-- secons row starts here -->
+        <div class="game_tile_second hide_pc">
+          <div class="upper_tile_text">
+            <h5>Most Played</h5>
+            <button>VIEW MORE</button>
+          </div>
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_2_photo_1.jpg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Grand Theft Auto V...</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-50%&nbsp;&nbsp;</p></div>
+                <p class="text">$19.99</p>
+                <p class="last_text">$9.99</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_2_photo_2.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">VALORANT</div>
+              <div class="text_and_button">
+                <p class="last_text">Free</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_2_photo_3.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Black Myth: Wukong</div>
+              <div class="text_and_button">
+                <p class="last_text">Free</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_2_photo_4.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Homeworld 3</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-40%&nbsp;&nbsp;</p></div>
+                <p class="text">$29.99</p>
+                <p class="last_text">$12.99</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_2_photo_5.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">SKULL AND BONES™</div>
+              <div class="text_and_button">
+                <div class="special"><p>&nbsp;&nbsp;-50%&nbsp;&nbsp;</p></div>
+                <p class="text">$87.99</p>
+                <p class="last_text">$43.99</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+        </div>
+        <!-- secons row ends here -->
+
+        <!-- third row starts here -->
+        <div class="game_tile_third hide_pc">
+          <div class="upper_tile_text">
+            <h5>Top Upcoming Wishlisted</h5>
+            <button>VIEW MORE</button>
+          </div>
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_3_photo_1.jpg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Indoorlands</div>
+              <div class="text_and_button">
+                <p class="last_text lo">Available 12/18/23</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_3_photo_2.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Frostpunk 2</div>
+              <div class="text_and_button">
+                <p class="last_text lo">Cooming Soon</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_3_photo_3.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">The Wolf Among Us 2</div>
+              <div class="text_and_button">
+                <p class="last_text lo">Cooming Soon</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_3_photo_4.jpg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Virtual Rides 3</div>
+              <div class="text_and_button">
+                <p class="last_text lo">Available 12/18/23</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+
+          <!-- this is one tile -->
+          <div class="tile">
+            <img src="./assests/tile_3_photo_5.jpeg" alt="Game Image" />
+            <div class="text-container">
+              <div class="text-row">Don't Turn Back</div>
+              <div class="text_and_button">
+                <p class="last_text lo">Available 12/18/23</p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here -->
+        </div>
+
+        <!-- third row ends here -->
+      </div>
+
+      <!-- mobile version of game tiles ends here -->
+    </div>
+
+    <!-- main class ends here  -->
+
+    <div class="foot">
+      <div class="foot_Write">
+        <hr>
+        <p>
+          © 2023, Epic Games, Inc. All rights reserved. Epic, Epic Games, the
+          Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine,
+          the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament
+          logo are trademarks or registered trademarks of Epic Games, Inc. in
+          the United States of America and elsewhere. Other brands or product
+          names are the trademarks of their respective owners.
+        </p>
+      </div>
+      <div class="foot_links">
+        <a href="" class="link_text">Terms of Service</a>
+        <a href="" class="link_text">Privacy Policy</a>
+        <a href="" class="link_text">Store Refund Policy</a>
+        <div class="link_icon_Cover">
+        <i class="fa-brands fa-ubuntu link_icon"></i>
+        <i class="fa-brands fa-unity link_icon"></i>
+      </div>
+      </div>
+    </div>
+
+    <!-- JS script -->
+    <!-- Bootstrap JS and Popper.js (make sure to include them) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyQq6D3qcJ3R5I"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+        "></script>
+    <!-- end here -->
+
+    <!-- Add this script at the end of your HTML file -->
+    <script>
+      // Wait for the DOM to be ready
+      document.addEventListener("DOMContentLoaded", function () {
+        // Get the list of items in the controller
+        var items = document.querySelectorAll(
+          ".pc_Version_main_class_game_photo_controler li"
+        );
+
+        // Get the carousel inner container
+        var carouselInner = document.querySelector(
+          ".pc_Version_main_class_game_photo .carousel-inner"
+        );
+
+        // Add a click event listener to each item
+        items.forEach(function (item, index) {
+          item.addEventListener("click", function () {
+            // Remove the 'active' class from all items
+            items.forEach(function (otherItem) {
+              otherItem.classList.remove("active");
+            });
+
+            // Add the 'active' class to the clicked item
+            item.classList.add("active");
+
+            // Set the corresponding carousel item as active
+            carouselInner
+              .querySelector(".carousel-item.active")
+              .classList.remove("active");
+            carouselInner
+              .querySelectorAll(".carousel-item")
+              [index].classList.add("active");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

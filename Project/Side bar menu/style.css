@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Hedvig Letters Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.main_body {
+  background-image: url("photo.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.first_button i{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.first_button i:hover{
+   transform: scale(1.2);
+}
+
+
+.second_button i{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  position: absolute;
+  left: 165px;
+  top: 13px;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+.second_button i:hover{
+    font-size: 22px;
+}
+
+
+#checkbox{
+    display: none;
+}
+
+#checkbox:checked ~ .nav_bar{
+    left: 0px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+#checkbox:checked ~ .first_button i{
+    opacity: 0;
+}
+
+
+#checkbox:checked ~ .nav_bar .second_button i{
+    opacity: 1;
+}
+
+
+  

@@ -1,0 +1,360 @@
+body {
+  background-color: black;
+
+  font-family: "Montserrat", sans-serif;
+}
+.left-side-panel {
+  background-color: #14131a;
+  color: white;
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px black;
+  z-index: 10;
+}
+.left-side-panel-icons {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  width: 90%;
+  background-color: #1c1b23;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px black;
+}
+
+.left-side-panel-icons div {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  width: 100%;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.left-side-panel-icons div:hover {
+  box-shadow: 2px 2px 6px black;
+}
+
+.left-side-panel-icons div i {
+  padding-right: 30px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.left-side-panel-icons div i:hover {
+  transform: translate(1px, 3px);
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.left-side-panel-icons div a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  opacity: 0.7;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+.left-side-panel-icons div a:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.left-side-panel-icons div i.one {
+  color: #0866ff;
+}
+.left-side-panel-icons div i.two {
+  color: #b5179e;
+}
+.left-side-panel-icons div i.three {
+  color: #ea4335;
+}
+.left-side-panel-icons div i.four {
+  color: #2a9d8f;
+}
+.left-side-panel-icons div i.five {
+  color: #0277b5;
+}
+.left-side-panel-icons div i.six {
+  color: #105bf2;
+}
+
+.middle-side-panel {
+  background-color: #131219;
+  color: white;
+  width: 70%;
+  height: auto;
+  display: flex;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-portfolio {
+  display: flex;
+  height: 100vh;
+}
+
+#check {
+  display: none;
+}
+
+.button_one {
+  position: absolute;
+  left: -350px;
+  color: white;
+  font-size: 25px;
+}
+
+.button_two {
+  position: absolute;
+  left: -350px;
+  color: white;
+  font-size: 25px;
+}
+
+.middle-side-panel-contents {
+  display: flex;
+  height: 95%;
+  width: 95%;
+  background-color: #1c1b23;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px black;
+}
+.middle-side-panel-contents-alvi {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  overflow: auto;
+  position: relative;
+}
+
+.cover-pic {
+  height: 30%;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.cover-pic img {
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.profile_pic {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.profile_pic img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
+.profile-name {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+.profile-name a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px black;
+}
+
+.profile-name p {
+  font-size: 15px;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px black;
+}
+
+.project-upper-text {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+.project-upper-text p {
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 6px;
+  text-shadow: 2px 2px 5px black;
+  opacity: 0.7;
+}
+.project-upper-text p:hover {
+  opacity: 1;
+}
+.projects {
+  display: flex;
+  width: 100%;
+  height: 45%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.projects-content {
+  display: flex;
+  flex: 0 0 calc(30% - 20px); /* Adjusted width and added margin */
+  flex-direction: column;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #1b1b2b;
+  height: 95%;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 6px black, -2px -2px 6px black;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.projects-content:hover {
+  background-color: #1c1b23;
+}
+
+.projects-content img {
+  width: 100%;
+  height: 60%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.project-content-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 40%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+  padding-left: 20px;
+}
+
+.project-content-text h5 {
+  font-weight: 650;
+}
+.project-content-text p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.project-content-text button {
+  color: white;
+  border: 2px solid #0d4c2f;
+}
+
+.wik {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5px;
+  text-shadow: 3px 3px 6px black;
+}
+.wik p {
+  font-weight: 600;
+  text-shadow: 3px 3px 6px black;
+  opacity: 0.7;
+}
+
+.wik p:hover {
+  opacity: 1;
+}
+
+.knowing_things {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 3px;
+}
+
+/* After 1000px */
+
+@media (max-width: 1000px) {
+  .left-side-panel {
+    position: fixed;
+    left: -100%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .projects-content {
+    flex: 0 0 calc(90% - 20px); /* Adjusted width for smaller screens */
+  }
+  .cover-pic {
+    display: flex;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .middle-side-panel-contents-alvi {
+    padding-top: 0px;
+  }
+  .middle-side-panel {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .profile_pic {
+    top: 3%;
+    left: 30%;
+  }
+  .profile_pic img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .profile-name {
+    top: 20%;
+    left: 18%;
+  }
+
+  .button_one {
+    top: 5%;
+    left: 85%;
+    opacity: 1;
+    z-index: 100;
+  }
+
+  .button_two {
+    top: 10%;
+    left: 80%;
+    opacity: 1;
+  }
+
+  #check:checked ~ .left-side-panel {
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+  }
+
+  #check:checked ~ .button_one {
+    opacity: 0;
+  }
+
+  #check:checked ~ .button_two {
+    opacity: 1;
+  }
+}
