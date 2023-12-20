@@ -1,0 +1,81 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(255, 0, 0, 1);
+  transition-duration: 2s;
+  transition-delay: 0.5s;
+  transition-timing-function: ease;
+  margin: 2px;
+}
+div:hover {
+  margin: 20px;
+}
+
+#seconddiv {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+#seconddiv:hover {
+  background-color: lime;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  transition-duration: 1s;
+  transition-delay: 0.3s;
+  background-color: lightgreen;
+}
+button:hover {
+  height: 60px;
+  width: 60px;
+  background-color: limegreen;
+}
+
+/* This is transform */
+
+#transform1 {
+  height: 100px;
+  width: 500px;
+  border: 2px solid black;
+  background-color: aquamarine;
+  transform: rotate(30deg);
+}
+#transform2 {
+  margin: 2px;
+  height: 100px;
+  width: 500px;
+  border: 2px solid black;
+  background-color: lightgreen;
+  transform: scale(0.5,1);
+  /* transform: scalex(1);
+  transform: scaleY(2); */
+}
+
+#transform3{
+    margin: 20px;
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: red;
+    transform: translate(100px,100px);
+    /* transform: translateX(100px);
+    transform: translateY(100px); */
+    
+}
+#transform4{
+    margin: 20px;
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: lightgreen;
+    
+    transform:  skew(-50deg) translate(10px,50px);
+}
+

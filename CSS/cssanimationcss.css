@@ -1,0 +1,38 @@
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    text-align: center;
+
+    animation-name: alvi;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: 2px 3px 6px #5cfcff;
+}
+
+/* @keyframes alvi{
+    from{
+        font-size: 20px;
+        background-color: green;
+    }
+    to{
+        font-size: 50px;
+        background-color: red;
+    }
+} */
+
+
+@keyframes alvi{
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: yellow;
+    }
+}

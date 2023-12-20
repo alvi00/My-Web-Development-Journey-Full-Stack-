@@ -1,0 +1,38 @@
+.container {
+  text-align: justify;
+}
+
+/* .btn-lg {
+  position: absolute;
+  left: 80px;
+}
+
+.btn-lg ~ .position-relative {
+  position: absolute;
+  left: 200px;
+}
+.alert-danger{
+    width: 500px;
+    position: absolute;
+    left: 80px;
+    margin-top: 10px;
+}
+
+.btn-group{
+    position: absolute;
+    top: 370px;
+    left: 80px;
+
+} */
+
+#alvi{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.bg-body-tertiary{
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px skyblue;
+    background-color: beige;
+}

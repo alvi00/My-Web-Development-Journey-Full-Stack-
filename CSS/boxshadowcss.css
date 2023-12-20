@@ -1,0 +1,15 @@
+div{
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: lightgreen;
+    box-shadow: 3px 3px 10px black;
+    margin: 10px auto;
+    background-image: url("test.png");
+    /* background-size: contain; */
+    background-size: cover;
+    background-size: auto;
+}
+h1{
+    text-align: center;
+}
