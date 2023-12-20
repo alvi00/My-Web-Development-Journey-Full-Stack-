@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Here starts the cdn link of font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./assets/logo.png" />
+    <!-- Here ends the cdn link of font awesome -->
+    <title>Spotify - Web Player: Music for everyone</title>
+    <!-- Here starts the part for google fonts - mosserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Here ends the part for google fonts - mosserrat -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-options" id="home-button">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-options">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+
+        <div class="library">
+          <div class="library-options">
+            <div class="lib-option nav-options">
+              <img src="./assets/library_icon.png" alt="library_icon" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="library-buttons">
+            <button class="button1">Playlists</button>
+            <button class="button2">Artists</button>
+            <button class="button3">Albums</button>
+          </div>
+        </div>
+
+        <div class="songs-sidebar">
+          <div class="search-bar">
+            <div class="magnify-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="recents">
+              <a href="#">Recents</a><i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Create your playlist now</p>
+              <p class="box-p2">It's easy,we will help you</p>
+              <button class="badge">Create Playlist</button>
+            </div>
+            <div class="box">
+              <p class="box-p1">Let's find some poscast to follow</p>
+              <p class="box-p2">We'll keep you updated on new episodes</p>
+              <button class="badge">Browse poscasts</button>
+            </div>
+          </div>
+          <div class="songs">
+            <ul>
+              <div>
+                <img src="./assets/liked-songs-640.png" alt="" />
+                <a href="#">Liked Songs</a>
+                <p>
+                  <i class="fa-solid fa-thumbtack"></i
+                  >&nbsp;&nbsp;Playlist&nbsp;. 176 songs
+                </p>
+              </div>
+              <div>
+                <img src="./assets/sigmamale.jpeg" alt="" /><a href="#"
+                  >SIGMA MALE TIKTOK MUSIC</a
+                >
+                <p class="alvi">Playlist . CRD</p>
+              </div>
+              <div>
+                <img src="./assets/blend.jpg" alt="" /><a href="#"
+                  >Tarek + Ahmad</a
+                >
+                <p class="alvi">Playlist . Spotify</p>
+              </div>
+              <div>
+                <img src="./assets/anuv.jpeg" alt="" /><a href="#"
+                  >Romantic Mix</a
+                >
+                <p class="alvi">Playlist . Spotify</p>
+              </div>
+              <div>
+                <img src="./assets/avoidrafa.jpeg" alt="" /><a href="#"
+                  >Bujhe Na Bujhe</a
+                >
+                <p class="alvi">Album . AvoidRafa</p>
+              </div>
+              <div>
+                <img src="./assets/artcell.jpeg" alt="" /><a href="#"
+                  >Artcell</a
+                >
+                <p class="alvi">Artists</p>
+              </div>
+              <div>
+                <img src="./assets/joe rogan.jpeg" alt="" /><a href="#"
+                  >Joe Rogan Podcasts</a
+                >
+                <p class="alvi">Playlist . Penwa</p>
+              </div>
+              <div>
+                <img src="./assets/phonk.jpeg" alt="" /><a href="#"
+                  >Phonk Music</a
+                >
+                <p class="alvi">Playlist . Sporify</p>
+              </div>
+              <div>
+                <img src="./assets/imran.jpeg" alt="" /><a href="#"
+                  >Imran Hashmi Mix</a
+                >
+                <p class="alvi">Playlist . Sporify</p>
+              </div>
+              <div>
+                <img src="./assets/fav.jpeg" alt="" /><a href="#"
+                  >Fav Song Mix</a
+                >
+                <p class="alvi">Playlist . Sporify</p>
+              </div>
+              <!-- This is the limit -->
+              <div class="footer">
+                <div class="line"></div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="main-nav-bar">
+          <div class="main-nav-bar-icons">
+            <img src="./assets/backward_icon.png" alt="" />
+            <img src="./assets/forward_icon.png" alt="" class="hide" />
+          </div>
+
+          <div class="main-nav-bar-options">
+            <button class="badge margin-item hide">Explore Premium</button>
+            <button class="badge margin-item bg-black">
+              <i class="fa-regular fa-circle-down"></i>&nbsp;&nbsp;Install App
+            </button>
+            <i class="fa-regular fa-bell margin-item"></i>
+            <i class="fa-regular fa-user margin-item"></i>
+          </div>
+        </div>
+
+        <!-- Another section -->
+        <div class="cards">
+          <h2>Recently Played</h2>
+          <div class="cards-container">
+            <div class="card">
+              <div class="card-overlay">
+                <i class="fa-solid fa-circle-play card-icon"></i>
+              </div>
+              <img src="./assets/warfaze.jpeg" alt="" class="card-image" />
+              <p class="card-tittle">Purnota</p>
+              <p class="card-info">warfaze</p>
+            </div>
+
+            <div class="card">
+              <div class="card-overlay">
+                <i class="fa-solid fa-circle-play card-icon"></i>
+              </div>
+              <img src="./homework/alag.jpeg" alt="" class="card-image" />
+              <p class="card-tittle">Alag Aasmaan</p>
+              <p class="card-info">Anuv jain</p>
+            </div>
+
+            <div class="card">
+              <div class="card-overlay">
+                <i class="fa-solid fa-circle-play card-icon"></i>
+              </div>
+              <img src="./homework/your eyes.jpeg" alt="" class="card-image" />
+              <p class="card-tittle">Your Eyes</p>
+              <p class="card-info">Barney Sku</p>
+            </div>
+
+            <div class="card">
+              <div class="card-overlay">
+                <i class="fa-solid fa-circle-play card-icon"></i>
+              </div>
+              <img src="./homework/idk.jpeg" alt="" class="card-image" />
+              <p class="card-tittle">Dhundhala</p>
+              <p class="card-info">Yashraj, Dropped out, Talwinder</p>
+            </div>
+
+            <div class="card">
+              <div class="card-overlay">
+                <i class="fa-solid fa-circle-play card-icon"></i>
+              </div>
+              <img src="./homework/one love.jpeg" alt="" class="card-image" />
+              <p class="card-tittle">One Love</p>
+              <p class="card-info">Shubh</p>
+            </div>
+
+            <!-- Continue this pattern for other cards -->
+          </div>
+        </div>
+
+        <!-- Another section -->
+        <div class="cards">
+          <h2>WRAPPED has arrived</h2>
+          <div class="cards-container">
+            <div class="card">
+              <div class="card-overlay">
+                <i class="fa-solid fa-circle-play card-icon"></i>
+              </div>
+              <img src="./homework/wraped-1.jpeg" alt="" class="card-image" />
+              <p class="card-tittle">Top Artists of 202..</p>
+              <p class="card-info">
+                The most streamed artists in Bangladesh...
+              </p>
+            </div>
+            <!-- Add more cards here -->
+            <div class="card">
+              <div class="card-overlay">
+                <i class="fa-solid fa-circle-play card-icon"></i>
+              </div>
+              <img src="./homework/wraped-2.jpeg" alt="" class="card-image" />
+              <p class="card-tittle">Top Tracks of 202..</p>
+              <p class="card-info">The most streamed tracks in Bangladesh...</p>
+            </div>
+            <!-- Add more cards here -->
+            <div class="card">
+              <div class="card-overlay">
+                <i class="fa-solid fa-circle-play card-icon"></i>
+              </div>
+              <img src="./homework/wraped-3.jpeg" alt="" class="card-image" />
+              <p class="card-tittle">Hot Hits Banglede...</p>
+              <p class="card-info">
+                Our editor's pick for best Bangladeshi son...
+              </p>
+            </div>
+            <!-- Add more cards here -->
+            <div class="card">
+              <div class="card-overlay">
+                <i class="fa-solid fa-circle-play card-icon"></i>
+              </div>
+              <img src="./homework/wraped-4.jpeg" alt="" class="card-image" />
+              <p class="card-tittle">Best of Desi Hits 2...</p>
+              <p class="card-info">
+                Our editor's pick for best Desi of the...
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Another section -->
+        <!-- Add more sections as needed -->
+
+        <div class="cards">
+          <h2>Popular albums</h2>
+          <div class="cards-container">
+              <div class="card">
+                  <div class="card-overlay">
+                      <i class="fa-solid fa-circle-play card-icon"></i>
+                  </div>
+                  <img src="./homework/popular-1.jpeg" alt="" class="card-image" />
+                  <p class="card-tittle">Starboy</p>
+                  <p class="card-info">The Weekend</p>
+              </div>
+              <!-- Add more cards here -->
+              <div class="card">
+                <div class="card-overlay">
+                  <i class="fa-solid fa-circle-play card-icon"></i>
+                </div>
+                <img src="./homework/popular-2.jpeg" alt="" class="card-image" />
+                <p class="card-tittle">Fairytale</p>
+                <p class="card-info">
+                  Alexander Rybak
+                </p>
+              </div>
+               <!-- Add more cards here -->
+               <div class="card">
+                <div class="card-overlay">
+                  <i class="fa-solid fa-circle-play card-icon"></i>
+                </div>
+                <img src="./homework/popular-3.jpeg" alt="" class="card-image" />
+                <p class="card-tittle">Bhaag Milkha Bha...</p>
+                <p class="card-info">
+                  Shankar-Ehsaan-Loy
+                </p>
+              </div>
+               <!-- Add more cards here -->
+               <div class="card">
+                <div class="card-overlay">
+                  <i class="fa-solid fa-circle-play card-icon"></i>
+                </div>
+                <img src="./homework/popular-4.jpeg" alt="" class="card-image" />
+                <p class="card-tittle">Tu hai Kahan</p>
+                <p class="card-info">
+                  AUR
+                </p>
+              </div>
+               <!-- Add more cards here -->
+               <div class="card">
+                <div class="card-overlay">
+                  <i class="fa-solid fa-circle-play card-icon"></i>
+                </div>
+                <img src="./homework/POPULAR-5.jpeg" alt="" class="card-image" />
+                <p class="card-tittle">sad hour</p>
+                <p class="card-info">
+                  heartbreak feels good in a place like this...
+                </p>
+              </div>
+              
+          </div>
+        </div>
+
+
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="music-player">
+        <div class="left-player">
+          <div>
+            <img src="./assets/warfaze.jpeg" alt="" class="item" />
+            <a href="" class="font-size-big item item1">Purnota</a>
+            <a href="" class="font-size-small opacity item item2">warfaze</a>
+            <i class="fa-regular fa-heart item3"></i>
+          </div>
+        </div>
+        <div class="player-controls">
+          <div class="upper-control">
+            <img
+              src="./assets/player_icon1.png"
+              alt=""
+              class="player-controls-icon opacity"
+            />
+            <img
+              src="./assets/player_icon2.png"
+              alt=""
+              class="player-controls-icon opacity"
+            />
+            <img
+              src="./assets/player_icon3.png"
+              alt=""
+              class="player-controls-icon scale"
+            />
+            <img
+              src="./assets/player_icon4.png"
+              alt=""
+              class="player-controls-icon opacity"
+            />
+            <img
+              src="./assets/player_icon5.png"
+              alt=""
+              class="player-controls-icon opacity"
+            />
+          </div>
+          <div class="playbackbar">
+            <span class="current-time">0.00</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              class="progressbar"
+              step="1"
+            />
+            <span class="total-time">3.33</span>
+          </div>
+        </div>
+        <div class="right-player">
+          <span class="material-symbols-outlined controlicon"> slideshow </span>
+          <i class="fa-solid fa-microphone controlicon"></i>
+          <i class="fa-solid fa-bars controlicon"></i>
+          <span class="material-symbols-outlined controlicon"> speaker </span>
+          <i class="fa-solid fa-volume-high controlicon"></i>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            step="1"
+            class="progressbar1 controlicon"
+          />
+          <i class="fa-solid fa-tv controlicon"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
