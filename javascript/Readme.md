@@ -1,0 +1,1 @@
+*Today is 20 feb and i am starting to learn javascript again so i learned html and css and bootstrap then i took a break as i went to umrah after that i started learning DSA which i loved now i am learning dsa and js side by side*
