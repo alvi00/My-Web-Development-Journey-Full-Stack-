@@ -58,3 +58,15 @@ let a = msg.trim().toUpperCase();
 
 // Log the resulting string, which has been trimmed and converted to uppercase, to the console
 console.log(a);
+
+// Declare a variable 'alvi' and assign it the string value "I love coding"
+let alvi = "I love coding";
+
+// Use the slice() method to extract a portion of the string starting from index 1 (the second character) to the end
+console.log(alvi.slice(1)); // Output: " love coding"
+
+// Use the slice() method to extract a portion of the string starting from index 2 (the third character) up to, but not including, index 5
+console.log(alvi.slice(2, 5)); // Output: "lov"
+
+// Use the slice() method with a negative index to extract a portion of the string starting from the third character from the end (index -3) to the end
+console.log(alvi.slice(-3)); // Output: "ing"
