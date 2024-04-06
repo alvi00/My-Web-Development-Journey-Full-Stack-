@@ -70,3 +70,12 @@ console.log(alvi.slice(2, 5)); // Output: "lov"
 
 // Use the slice() method with a negative index to extract a portion of the string starting from the third character from the end (index -3) to the end
 console.log(alvi.slice(-3)); // Output: "ing"
+
+// Declare a variable 'alvi' and assign it the string value "I love coding"
+let alvi = "I love coding";
+
+// Use the replace() method to replace the substring "coding" with "myself" in the string 'alvi'
+console.log(alvi.replace("coding", "myself")); // Output: "I love myself"
+
+// Use the replace() method to replace the first occurrence of the character 'I' with 'U' in the string 'alvi'
+console.log(alvi.replace('I', 'U')); // Output: "U love coding"
