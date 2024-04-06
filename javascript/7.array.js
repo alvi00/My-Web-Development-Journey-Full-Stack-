@@ -74,3 +74,38 @@ let b = arr.includes("alvi");
 // Log whether "alvi" is present in the array to the console
 console.log(b); // Output: true (since "alvi" is present in the array)
 
+
+// Declare two arrays 'num1' and 'num2'
+let num1 = [1, 2, 3, 4, 5];
+let num2 = [6, 7, 8, 9, 10];
+
+// Use the concat() method to merge 'num1' and 'num2' into a new array 'num3'
+let num3 = num1.concat(num2);
+
+// Log the concatenated array 'num3' to the console
+console.log(num3); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// Use the reverse() method to reverse the order of elements in the array 'num3'
+// Note: reverse() modifies the original array and also returns the reversed array
+console.log(num3.reverse()); // Output: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+
+
+
+
+
+
+// Declare an array 'arr' containing a mix of strings and numbers
+let arr = ["Alvi", 1, "anas", 2];
+
+// Use the slice() method to extract a portion of the array from index 1 to index 3 (not including index 3)
+console.log(arr.slice(1, 3)); // Output: [1, "anas"]
+
+// Use the slice() method with no arguments, which returns a shallow copy of the entire array
+console.log(arr.slice()); // Output: ["Alvi", 1, "anas", 2]
+
+// Use the slice() method to extract the last two elements of the array
+console.log(arr.slice(-2)); // Output: ["anas", 2]
+
+// Use the slice() method to extract a portion of the array from index 2 to the end
+console.log(arr.slice(2)); // Output: ["anas", 2]
