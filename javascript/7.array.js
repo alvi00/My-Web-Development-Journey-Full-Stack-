@@ -57,3 +57,20 @@ let a = followers.shift();
 //this funcstions not only removes but also returns the deleted value also with pop too
 // Log the value of the removed element to the console
 console.log(a);
+
+
+// Declare an array 'arr' containing several strings
+let arr = ["alvi", "fahim", "anas", "shefa"];
+
+// Use the indexOf() method to find the index of the element "alvi" in the array 'arr'
+let a = arr.indexOf("alvi");
+
+// Log the index of "alvi" to the console
+console.log(a); // Output: 0 (since "alvi" is at index 0 in the array)
+
+// Use the includes() method to check if the element "alvi" is present in the array 'arr'
+let b = arr.includes("alvi");
+
+// Log whether "alvi" is present in the array to the console
+console.log(b); // Output: true (since "alvi" is present in the array)
+
