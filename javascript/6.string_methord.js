@@ -1,12 +1,15 @@
+//----------------------------------------------------------------------
+
 // Prompt the user to enter their password and store the input in the variable 'password'
 let password = prompt("Enter your password");
 
 // Trim the whitespace from the beginning and end of the password using the trim() method
 let alvi = password.trim();
-//here it doesnt make change to the main str. it make a copy of the str, make changes and give the new string.
+
 // Log the trimmed password to the console
 console.log(alvi);
 
+//----------------------------------------------------------------------
 
 // Declare a variable 'str' and assign it the value "alvi"
 let str = "alvi";
@@ -17,7 +20,7 @@ let a = str.toUpperCase();
 // Log the uppercase version of the string to the console
 console.log(a);
 
-
+//----------------------------------------------------------------------
 
 // Declare a variable 'str1' and assign it the value "ALVI"
 let str1 = "ALVI";
@@ -28,6 +31,8 @@ let b = str1.toLowerCase();
 // Log the lowercase version of the string to the console
 console.log(b);
 
+//----------------------------------------------------------------------
+
 // Declare a variable 'str' and assign it the value "alvi"
 let str = "alvi";
 
@@ -37,6 +42,7 @@ let a = str.indexOf('l');
 // Log the index of 'l' in the string to the console
 console.log(a);
 
+//----------------------------------------------------------------------
 
 // Declare a variable 'str1' and assign it the value "anas is a brother of alvi"
 let str1 = "anas is a brother of alvi";
@@ -47,7 +53,7 @@ let a1 = str1.indexOf("alvi");
 // Log the index of the substring "alvi" in the string to the console
 console.log(a1);
 
-//if not found it will pass -1
+//----------------------------------------------------------------------
 
 // Declare a variable 'msg' and assign it the value "          alvi                   "
 let msg = "          alvi                   ";
@@ -58,6 +64,8 @@ let a = msg.trim().toUpperCase();
 
 // Log the resulting string, which has been trimmed and converted to uppercase, to the console
 console.log(a);
+
+//----------------------------------------------------------------------
 
 // Declare a variable 'alvi' and assign it the string value "I love coding"
 let alvi = "I love coding";
@@ -70,6 +78,8 @@ console.log(alvi.slice(2, 5)); // Output: "lov"
 
 // Use the slice() method with a negative index to extract a portion of the string starting from the third character from the end (index -3) to the end
 console.log(alvi.slice(-3)); // Output: "ing"
+
+//----------------------------------------------------------------------
 
 // Declare a variable 'alvi' and assign it the string value "I love coding"
 let alvi = "I love coding";
