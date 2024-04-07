@@ -8,3 +8,17 @@ for (let i = 1; i <= 15; i++) {
         console.log(i);
     }
 }
+
+//----------------------------------------------------------------------
+
+// Prompt the user to enter a number and store the input in the variable 'n'
+let n = prompt("Enter a number");
+
+// Convert the user input from string to integer using parseInt() and reassign it to 'n'
+n = parseInt(n););//no need this line only to understand what this function do
+
+// Iterate over numbers from 1 to 10
+for (let i = 1; i <= 10; i++) {
+    // Multiply the current value of 'n' by 'i' and log the result to the console
+    console.log(i * n);
+}
