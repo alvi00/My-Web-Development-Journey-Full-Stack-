@@ -109,3 +109,41 @@ console.log(arr.slice(-2)); // Output: ["anas", 2]
 
 // Use the slice() method to extract a portion of the array from index 2 to the end
 console.log(arr.slice(2)); // Output: ["anas", 2]
+
+
+// Declare an array 'arr' containing strings
+let arr = ["alvi", "anas", "Sami", "sakib"];
+
+// Use the splice() method to remove all elements starting from index 1 (inclusive)
+arr.splice(1);
+console.log(arr); // Output: ["alvi"]
+
+// Declare an array 'arr1' containing strings
+let arr1 = ["alvi", "anas", "Sami", "sakib"];
+
+// Use the splice() method to remove one element starting from index 1
+arr1.splice(1, 1);
+console.log(arr1); // Output: ["alvi", "Sami", "sakib"]
+
+// Declare an array 'arr2' containing strings
+let arr2 = ["alvi", "anas", "Sami", "sakib"];
+
+// Use the splice() method to remove two elements starting from index 2 and add two new elements "fahim" and "okita"
+arr2.splice(2, 2, "fahim", "okita");
+console.log(arr2); // Output: ["alvi", "anas", "fahim", "okita"]
+
+
+// Declare an array 'arr' containing strings
+let arr = ["a", "d", "e", "g", "c"];
+
+// Use the sort() method to sort the elements of the array 'arr'
+arr.sort();
+console.log(arr); // Output: ["a", "c", "d", "e", "g"]
+
+// Declare an array 'arr1' containing numbers
+let arr1 = [100, 12, 4, 2, 1, 3];
+
+// Use the sort() method to sort the elements of the array 'arr1'
+// By default, sort() sorts elements as strings, so it will sort them alphabetically, not numerically
+arr1.sort();
+console.log(arr1); // Output: [1, 100, 12, 2, 3, 4]
