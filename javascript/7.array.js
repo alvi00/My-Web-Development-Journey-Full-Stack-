@@ -160,3 +160,23 @@ let arr1 = arr;
 
 // Log the contents of 'arr1'
 console.log(arr1); // Output: ["a", "b", "c", "d", "e"]
+
+//----------------------------------------------------------------------
+
+// Declare a constant array 'arr' containing numbers and strings
+const arr = [1, 2, "alvi", "sami", "sakib"];
+
+// Log the contents of the array 'arr' to the console
+console.log(arr);
+
+// Use the pop() method to remove the last element from the array 'arr'
+arr.pop();
+
+// Use the splice() method to remove the first element from the array 'arr'
+arr.splice(0, 1);
+
+// Log the modified contents of the array 'arr' to the console
+console.log(arr);
+
+// Trying to reassign 'arr' to a new array, which is not possible because 'arr' is declared as a constant
+// arr = [1, 2, 3]; // This line will throw an error
