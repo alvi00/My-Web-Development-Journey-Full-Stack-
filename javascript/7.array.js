@@ -180,3 +180,24 @@ console.log(arr);
 
 // Trying to reassign 'arr' to a new array, which is not possible because 'arr' is declared as a constant
 // arr = [1, 2, 3]; // This line will throw an error
+
+
+//----------------------------------------------------------------------
+
+// Declare a 2D array 'arr' containing arrays of strings and numbers
+let arr = [["alvi", "anas"], [1, 2], [3, 4]];
+
+// Log the contents of the 2D array 'arr' to the console
+console.log(arr);
+
+// Log the length of the outer array 'arr'
+console.log(arr.length); // Output: 3
+
+// Log the length of the inner array at index 0 of 'arr'
+console.log(arr[0].length); // Output: 2
+
+// Access and log the element at index [0][0] of 'arr'
+console.log(arr[0][0]); // Output: "alvi"
+
+// Access and log the character at index [0][0][0] of 'arr'
+console.log(arr[0][0][0]); // Output: "a"
