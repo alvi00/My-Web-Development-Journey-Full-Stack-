@@ -159,4 +159,17 @@ console.log(Math.random()); // Output: Random floating-point number between 0 an
 
 //----------------------------------------------------------------------
 
+//----------------------------------------------------------------------
+
+// Generate a random floating-point number between 0 (inclusive) and 1 (exclusive)
+// Multiply it by 10 to get a random floating-point number between 0 (inclusive) and 10 (exclusive)
+// Use Math.floor() to round down to the nearest integer, resulting in a random integer between 0 and 9
+// Add 1 to shift the range to 1 through 10
+let random = Math.floor(Math.random() * 10) + 1;
+
+// Log the random integer between 1 and 10 (inclusive) to the console
+console.log(random);
+
+//----------------------------------------------------------------------
+
 
