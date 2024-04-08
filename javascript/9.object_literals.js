@@ -72,4 +72,10 @@ student["gender"] = "male";
 // Access the newly added 'gender' property of the 'student' object using dot notation
 console.log(student.gender); // Output: "male"
 
+// Use the delete operator to remove the 'name' property from the 'student' object
+delete student.name;
+
+// Log the modified 'student' object to the console
+console.log(student);
+
 //----------------------------------------------------------------------
