@@ -79,3 +79,30 @@ delete student.name;
 console.log(student);
 
 //----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
+
+// Define a constant object 'students' with properties representing individual students
+const students = {
+    alvi: {
+        gender: "male",
+        grade: "A"
+    },
+    sami: {
+        gender: "Male",
+        grade: "B+"
+    },
+    shefa: {
+        gender: "Female",
+        grade: "A"
+    }
+};
+
+// Log the entire 'students' object to the console
+console.log(students);
+
+// Access the 'gender' property of the 'alvi' object using dot notation
+console.log(students.alvi.gender); // Output: "male"
+
+//----------------------------------------------------------------------
+
