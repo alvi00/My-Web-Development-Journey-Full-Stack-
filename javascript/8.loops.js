@@ -22,3 +22,14 @@ for (let i = 1; i <= 10; i++) {
     // Multiply the current value of 'n' by 'i' and log the result to the console
     console.log(i * n);
 }
+
+//----------------------------------------------------------------------
+
+// Declare an array 'food' containing a mix of strings and numbers
+let food = ["burger", 1, "pizz", 1];
+
+// Iterate over each element of the 'food' array using a for...of loop
+for (let i of food) {
+    // Log each element to the console
+    console.log(i);
+}
