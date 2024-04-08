@@ -59,3 +59,21 @@ for (let i of alvi) {
         console.log(j);
     }
 }
+
+
+//----------------------------------------------------------------------
+
+// Declare an array 'alvi' containing nested arrays of strings
+let alvi = [
+    ["alvi", "Sami", "Sakib"],
+    ["takib", "sifat"]
+];
+
+// Iterate over each element (sub-array) of the 'alvi' array using a for...of loop
+for (let i of alvi) {
+    // Iterate over each element of the current sub-array using another for...of loop
+    for (let j of i) {
+        // Log each element to the console
+        console.log(j);
+    }
+}
