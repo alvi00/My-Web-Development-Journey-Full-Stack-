@@ -106,3 +106,30 @@ console.log(students.alvi.gender); // Output: "male"
 
 //----------------------------------------------------------------------
 
+
+//----------------------------------------------------------------------
+
+// Define an array 'students' containing three objects
+const students = [
+    {
+        name: "Ahmad Fahmid",
+        Grade: "A"
+    },
+    {
+        name: "Sanun Aaai"
+    },
+    {
+        gender: "Male"
+    }
+];
+
+// Log the entire 'students' array to the console
+console.log(students);
+
+// Log the first object in the 'students' array to the console
+console.log(students[0]);
+
+// Access the 'name' property of the first object in the 'students' array using bracket notation
+console.log(students[0]["name"]); // Output: "Ahmad Fahmid"
+
+//----------------------------------------------------------------------
