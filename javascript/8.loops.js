@@ -46,3 +46,16 @@ for (let i of alvi) {
     console.log(i);
 }
 
+//----------------------------------------------------------------------
+
+// Declare an array 'alvi' containing several strings
+let alvi = ["alvi", "Sami", "Sakib", "takib", "sifat"];
+
+// Iterate over each element of the 'alvi' array using a for...of loop
+for (let i of alvi) {
+    // Iterate over each character of the current element using another for...of loop
+    for (let j of i) {
+        // Log each character to the console
+        console.log(j);
+    }
+}
