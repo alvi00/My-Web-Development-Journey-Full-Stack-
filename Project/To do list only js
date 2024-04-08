@@ -1,0 +1,48 @@
+//----------------------------------------------------------------------
+
+// Declare an empty array 'arr' to store user input
+let arr = [];
+
+// Prompt the user to enter a request (add, delete, list, or quit)
+let req = prompt("Enter the request");
+
+// Start an infinite loop to handle user input until the user decides to quit
+while (true) {
+    // Check if the user input is "quit"
+    if (req === "quit") {
+        console.log("Quitting...");
+        break; // Exit the loop if the user wants to quit
+    }
+    // Check if the user input is "list"
+    else if (req === "list") {
+        // Loop through each element of the array 'arr' and print its index and value
+        for (let i = 0; i < arr.length; i++) {
+            console.log(i, arr[i]);
+        }
+        console.log("---------------------");
+    }
+    // Check if the user input is "add"
+    else if (req === "add") {
+        // Prompt the user to enter an item to add to the array
+        let newItem = prompt("What to add");
+        // Add the new item to the end of the array 'arr'
+        arr.push(newItem);
+        console.log("Added");
+    }
+    // Check if the user input is "delete"
+    else if (req === "delete") {
+        // Prompt the user to enter the index of the item to delete
+        let indexToDelete = prompt("Enter the index to delete");
+        // Remove the item at the specified index from the array 'arr'
+        arr.splice(indexToDelete, 1);
+    }
+    // If the user input doesn't match any of the predefined commands, prompt the user to enter the request again
+    else {
+        console.log("Invalid input. Please try again.");
+    }
+    
+    // Prompt the user for the next request
+    req = prompt("Enter the request");
+}
+
+//----------------------------------------------------------------------
