@@ -133,3 +133,30 @@ console.log(students[0]);
 console.log(students[0]["name"]); // Output: "Ahmad Fahmid"
 
 //----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
+
+// Log the mathematical constant 'e' to the console
+console.log(Math.E); // Output: 2.718281828459045
+
+// Log the mathematical constant 'π' (pi) to the console
+console.log(Math.PI); // Output: 3.141592653589793
+
+// Log the absolute value of -2 to the console
+console.log(Math.abs(-2)); // Output: 2
+
+// Log the result of 2 raised to the power of 3 to the console
+console.log(Math.pow(2, 3)); // Output: 8
+
+// Log the largest integer less than or equal to 2.79 to the console
+console.log(Math.floor(2.79)); // Output: 2
+
+// Log the smallest integer greater than or equal to 5.23 to the console
+console.log(Math.ceil(5.23)); // Output: 6
+
+// Log a random floating-point number between 0 (inclusive) and 1 (exclusive) to the console
+console.log(Math.random()); // Output: Random floating-point number between 0 and 1
+
+//----------------------------------------------------------------------
+
+
