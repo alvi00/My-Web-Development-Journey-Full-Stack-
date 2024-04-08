@@ -33,3 +33,16 @@ for (let i of food) {
     // Log each element to the console
     console.log(i);
 }
+
+
+//----------------------------------------------------------------------
+
+// Declare a string variable 'alvi' containing the value "Ahmad Fahmid Alvi"
+let alvi = "Ahmad Fahmid Alvi";
+
+// Iterate over each character of the string 'alvi' using a for...of loop
+for (let i of alvi) {
+    // Log each character to the console
+    console.log(i);
+}
+
