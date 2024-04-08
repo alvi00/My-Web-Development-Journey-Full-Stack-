@@ -47,3 +47,29 @@ let a = "played";
 console.log(song[a]); // Output: 100
 
 //----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
+
+// Define a constant object 'student' with properties 'name', 'id', and 'city'
+const student = {
+    name: "Ahmad Fahmid",
+    id: 2232502642,
+    city: "faridpur"
+};
+
+// Access the 'name' property of the 'student' object using bracket notation
+console.log(student["name"]); // Output: "Ahmad Fahmid"
+
+// Modify the 'name' property of the 'student' object using bracket notation
+student["name"] = "Sadnun Sami";
+
+// Access the 'name' property of the 'student' object using dot notation after modification
+console.log(student.name); // Output: "Sadnun Sami"
+
+// Add a new property 'gender' to the 'student' object using bracket notation
+student["gender"] = "male";
+
+// Access the newly added 'gender' property of the 'student' object using dot notation
+console.log(student.gender); // Output: "male"
+
+//----------------------------------------------------------------------
