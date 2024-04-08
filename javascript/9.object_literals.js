@@ -24,3 +24,26 @@ console.log(item);
 console.log(item.price);
 
 //----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
+
+// Define an object 'song' with properties 'name', 'played', and 'tag'
+let song = {
+    name: "somwhere obly we know",
+    played: 100,
+    tag: ["lazna", "Sami"]
+};
+
+// Access the 'name' property of the 'song' object using dot notation
+console.log(song.name); // Output: "somwhere obly we know"
+
+// Access the 'name' property of the 'song' object using bracket notation
+console.log(song["name"]); // Output: "somwhere obly we know"
+
+// Define a variable 'a' and assign it the value "played"
+let a = "played";
+
+// Access the property of the 'song' object using a variable ('a') that holds the property name
+console.log(song[a]); // Output: 100
+
+//----------------------------------------------------------------------
