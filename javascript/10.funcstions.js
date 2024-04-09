@@ -13,3 +13,17 @@ function malti(a) {
 malti(5);
 
 //----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
+
+// Define a function 'sum' that takes two parameters 'a' and 'b'
+function sum(a, b) {
+    // Return the sum of 'a' and 'b'
+    return a + b;
+}
+
+// Call the 'sum' function with arguments 10 and 20, and log the result to the console
+console.log(sum(10, 20)); // Output: 30
+
+//----------------------------------------------------------------------
+
