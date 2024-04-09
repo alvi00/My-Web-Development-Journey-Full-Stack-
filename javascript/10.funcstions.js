@@ -27,3 +27,18 @@ console.log(sum(10, 20)); // Output: 30
 
 //----------------------------------------------------------------------
 
+//----------------------------------------------------------------------
+
+// Define a function 'sum' that takes two parameters 'a' and 'b' and returns their sum
+function sum(a, b) {
+    return a + b;
+}
+
+// Call the 'sum' function with arguments 1 and 3, then call 'sum' again with the result (4) and the argument 2
+// Store the final result in the variable 'a'
+let a = sum(sum(1, 3), 2);
+
+// Log the value of 'a' to the console
+console.log(a); // Output: 6
+
+//----------------------------------------------------------------------
