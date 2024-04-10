@@ -114,3 +114,23 @@ anas(function() {
 }, 1000); // Output: "Hello" printed 1000 times
 
 //----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
+
+// Define an object 'a' with two methods: 'add' and 'sub'
+const a = {
+    // Define the 'add' method that takes two parameters 'a' and 'b' and returns their sum
+    add: function(a, b) {
+        return a + b;
+    },
+
+    // Define the 'sub' method that takes two parameters 'a' and 'b' and returns their difference
+    sub: function(a, b) {
+        return a - b;
+    }
+};
+
+// Call the 'add' method of object 'a' with arguments '1' and '2', and log the result to the console
+console.log(a.add(1, 2)); // Output: 3 (1 + 2)
+
+//----------------------------------------------------------------------
