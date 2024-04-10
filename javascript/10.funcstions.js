@@ -42,3 +42,22 @@ let a = sum(sum(1, 3), 2);
 console.log(a); // Output: 6
 
 //----------------------------------------------------------------------
+
+
+//----------------------------------------------------------------------
+
+// Define the 'alvi' function
+function alvi() {
+    // Declare a variable 'x' (but it is not initialized in this code)
+    let x;
+
+    // Define the 'anas' function inside the 'alvi' function
+    function anas() {
+        // Log the value of 'x' to the console
+        // Note: 'x' is not initialized within the 'alvi' function, so it's undefined here
+        console.log(x); // This is lexical scope; 'anas' can access 'x' from its parent function 'alvi'
+    }
+}
+
+//----------------------------------------------------------------------
+
