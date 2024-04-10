@@ -74,4 +74,24 @@ console.log(alvi(1, 2)); // Output: 3
 
 //----------------------------------------------------------------------
 
+//----------------------------------------------------------------------
 
+// Define the 'alvi' function
+let alvi = function() {
+    // Log "Hello" to the console
+    console.log("Hello");
+}
+
+// Define the 'anas' function that takes a function 'func' and a number 'n' as arguments
+let anas = function(func, n) {
+    // Iterate 'n' times
+    for (let i = 0; i < n; i++) {
+        // Call the provided function 'func'
+        func();
+    }
+}
+
+// Call the 'anas' function with 'alvi' as the function argument and '10' as the number of times to call 'alvi'
+anas(alvi, 10); // Output: "Hello" printed 10 times
+
+//----------------------------------------------------------------------
