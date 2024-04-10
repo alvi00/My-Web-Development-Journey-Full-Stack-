@@ -95,3 +95,22 @@ let anas = function(func, n) {
 anas(alvi, 10); // Output: "Hello" printed 10 times
 
 //----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
+
+// Define the 'anas' function that takes a function 'func' and a number 'n' as arguments
+let anas = function(func, n) {
+    // Iterate 'n' times
+    for (let i = 0; i < n; i++) {
+        // Call the provided function 'func'
+        func();
+    }
+};
+
+// Call the 'anas' function with an anonymous function as the first argument and '1000' as the number of times to call it
+anas(function() {
+    // This is an anonymous function that logs "Hello" to the console when called
+    console.log("Hello");
+}, 1000); // Output: "Hello" printed 1000 times
+
+//----------------------------------------------------------------------
