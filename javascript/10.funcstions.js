@@ -61,3 +61,17 @@ function alvi() {
 
 //----------------------------------------------------------------------
 
+//----------------------------------------------------------------------
+
+// Define a function expression assigned to the variable 'alvi'
+let alvi = function(a, b) {
+    // Return the sum of 'a' and 'b'
+    return a + b;
+}
+
+// Call the 'alvi' function with arguments 1 and 2, and log the result to the console
+console.log(alvi(1, 2)); // Output: 3
+
+//----------------------------------------------------------------------
+
+
