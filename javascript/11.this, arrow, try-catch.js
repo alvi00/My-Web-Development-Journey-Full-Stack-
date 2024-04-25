@@ -17,6 +17,12 @@ let alvi = {
     }
 };
 
+
+//----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
+
+
 // Call the 'avg' method of the 'alvi' object to calculate and display the average score
 alvi.avg();
 
@@ -44,4 +50,9 @@ try {
 
 // Output a message indicating that the code execution is completed
 console.log("Code is done");
+
+//----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
+
 
