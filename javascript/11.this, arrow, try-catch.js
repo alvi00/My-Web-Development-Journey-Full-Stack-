@@ -28,3 +28,20 @@ function anas() {
 
 // Call the 'anas' function
 anas();
+
+
+// Output a message indicating that this is a try and catch block demonstration
+console.log("This is a code of try and catch");
+
+// Attempt to access a variable 'a' which is not defined
+try {
+    console.log(a); // This will throw an error because 'a' is not defined
+} catch (e) {
+    // If an error occurs, execute this block
+    console.log("Error , A is not defined"); // Output a custom error message
+    console.log(e); // Output the error object 'e', which contains information about the error
+}
+
+// Output a message indicating that the code execution is completed
+console.log("Code is done");
+
