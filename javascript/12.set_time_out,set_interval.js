@@ -30,7 +30,24 @@ let id = setInterval(() => {
 // Output the ID of the interval timer to the console
 console.log(id); // Output: (some numeric value representing the interval ID)
 
+
 // Clear the interval timer specified by its ID
 clearInterval(id);
+
+
+
+//--------------------------------------------//
+//----------------------------------------------//
+
+// Set up an interval to log "Hello World" every 2 seconds
+let id = setInterval(() => {
+    console.log("Hello World");
+}, 2000);
+
+// After 10 seconds (10000 milliseconds), clear the interval and log "Stopped"
+setTimeout(() => {
+    clearInterval(id); // Clear the interval using its ID
+    console.log("Stopped");
+}, 10000);
 
 
