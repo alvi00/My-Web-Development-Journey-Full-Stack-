@@ -19,5 +19,18 @@ console.log("End code");
 //--------------------------------------------//
 //----------------------------------------------//
 
+// Output a message indicating that this is a setInterval function demonstration
+console.log("This is a code setinterval function");
+
+// Set an interval to execute a piece of code (in this case, logging "Hello World") every 1000 milliseconds (1 second)
+let id = setInterval(() => {
+    console.log("Hello World");
+}, 1000);
+
+// Output the ID of the interval timer to the console
+console.log(id); // Output: (some numeric value representing the interval ID)
+
+// Clear the interval timer specified by its ID
+clearInterval(id);
 
 
