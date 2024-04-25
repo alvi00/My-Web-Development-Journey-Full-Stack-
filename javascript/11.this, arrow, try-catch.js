@@ -56,3 +56,49 @@ console.log("Code is done");
 //----------------------------------------------------------------------
 
 
+// Define an arrow function 'alvi' that takes two parameters 'a' and 'b'
+const alvi = (a, b) => {
+    // Return the sum of 'a' and 'b'
+    return a + b;
+}
+
+// Call the 'alvi' function with arguments 10 and 20, then log the result
+console.log(alvi(10, 20)); // Output: 30
+
+// Define an arrow function 'pow' that takes two parameters 'a' and 'b'
+const pow = (a, b) => {
+    // Return the product of 'a' and 'b'
+    return a * b;
+}
+
+// Call the 'pow' function with arguments 2 and 2, then log the result
+console.log(pow(2, 2)); // Output: 4
+
+// Define an arrow function 'print' with no parameters
+const print = () => {
+    // Log a message
+    console.log("Alvi is a good boy");
+}
+
+// Call the 'print' function to log the message
+print(); // Output: Alvi is a good boy
+
+
+//----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
+
+
+// Define an arrow function 'alvi' that takes two parameters 'a' and 'b' and returns their sum
+const alvi = (a, b) => (
+    a + b
+);
+
+// Call the 'alvi' function with arguments 1 and 2, then log the result
+console.log(alvi(1, 2)); // Output: 3
+
+
+
+//----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
