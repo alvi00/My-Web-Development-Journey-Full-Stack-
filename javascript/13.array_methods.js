@@ -104,4 +104,18 @@ console.log(alvi); // Output: [2, 20]
    //filer
 //-------------------------------------//
 
+// Define an array containing integers from 1 to 10
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// Use the 'filter' method to create a new array containing only even numbers from the original array 'arr'
+// For each element 'el' in 'arr', the condition 'el % 2 === 0' checks if it's even
+// If the condition is true, the element is included in the new array, otherwise, it's filtered out
+let even = arr.filter((el) => (
+    el % 2 === 0
+));
+
+// Output the new array containing only even numbers
+console.log(even); // Output: [2, 4, 6, 8, 10]
+
+
 
