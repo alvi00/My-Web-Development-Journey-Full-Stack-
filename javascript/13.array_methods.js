@@ -55,5 +55,27 @@ arr.forEach(anas);
 
 
 //--------------------------------------/
-
+   //map
 //-------------------------------------//
+
+
+// Define an array containing integers from 1 to 8
+let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// Use the 'map' method to create a new array based on the original array 'arr'
+// For each element 'el' in 'arr', double it and return the result
+let double = arr.map((el) => (
+    el * 2
+));
+
+// Output the new array containing doubled elements
+console.log(double); // Output: [2, 4, 6, 8, 10, 12, 14, 16]
+
+
+
+
+//--------------------------------------/
+   
+//-------------------------------------//
+
+
