@@ -74,6 +74,32 @@ console.log(double); // Output: [2, 4, 6, 8, 10, 12, 14, 16]
 
 
 
+// Define an array of student objects, each containing a 'name' and a 'marks' property
+let students = [
+    {
+        name: "alvi",
+        marks: 20
+    },
+    {
+        name: "sakib",
+        marks: 200
+    }
+];
+
+// Use the 'map' method to create a new array based on the original 'students' array
+// For each student object 'el' in 'students', divide the 'marks' property by 10 and return the result
+let alvi = students.map((el) => (
+    el.marks / 10
+));
+
+// Output the new array containing marks divided by 10 for each student
+console.log(alvi); // Output: [2, 20]
+
+
+
+
+
+
 //--------------------------------------/
    
 //-------------------------------------//
