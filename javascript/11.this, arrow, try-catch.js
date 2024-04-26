@@ -102,3 +102,21 @@ console.log(alvi(1, 2)); // Output: 3
 //----------------------------------------------------------------------
 
 //----------------------------------------------------------------------
+
+const student = {
+    name: "Alvi", // Property: Name of the student
+    marks: 100,   // Property: Marks of the student
+    prop: this,   // Property: 'this' refers to the object being constructed, but not used as intended
+    alvi: function() {
+        console.log(this);        // Method: Logs the context (student object)
+        console.log(this.marks);  // Method: Logs the marks property of the context (student object)
+    },
+    anas: () => {
+        console.log(this);        // Method: Logs the context (usually the global object in this case)
+        console.log(this.name);   // Method: Logs the name property of the context (usually undefined)
+    }
+};
+
+student.alvi(); // Calling the 'alvi' method of the 'student' object
+student.anas(); // Calling the 'anas' method of the 'student' object
+
