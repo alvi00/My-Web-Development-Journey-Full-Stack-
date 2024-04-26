@@ -120,3 +120,28 @@ const student = {
 student.alvi(); // Calling the 'alvi' method of the 'student' object
 student.anas(); // Calling the 'anas' method of the 'student' object
 
+//----------------------------------------------------------------------
+
+//----------------------------------------------------------------------
+
+
+const student = {
+    name: "Alvi",
+    marks: 100,
+    prop: this, // This line has no practical effect in this context; it refers to the surrounding context during object creation.
+
+    getinfo: () => {
+        setTimeout(() => {
+            console.log(this); // This will log the value of 'this' when the arrow function is created, usually the global object.
+        }, 2000);
+    },
+
+    getinfo1: function() {
+        setTimeout(() => {
+            console.log(this); // This will log the value of 'this' when the function is executed, which is the 'student' object.
+        }, 2000);
+    }
+};
+
+student.getinfo();  // Logs the global object (usually 'window' in browsers) after 2000ms
+student.getinfo1(); // Logs the 'student' object after 2000ms
