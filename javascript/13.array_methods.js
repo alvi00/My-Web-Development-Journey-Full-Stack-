@@ -27,6 +27,32 @@ arr.forEach(function(el) {
 
 
 
+// Define an array of objects, each containing a 'name' and an 'id' property
+const arr = [
+    {
+        name: "alvi",
+        id: 22
+    },
+    {
+        name: "Sami",
+        id: 1112
+    }
+];
+
+// Define a function named 'anas' using arrow function syntax
+// This function takes an object 'el' as a parameter and logs its 'name' property to the console
+let anas = (el) => {
+    console.log(el.name);
+};
+
+// Iterate over each object in the 'arr' array using the 'forEach' method
+// For each object, call the 'anas' function, which logs the 'name' property of the object to the console
+arr.forEach(anas);
+
+
+
+
+
 
 //--------------------------------------/
 
