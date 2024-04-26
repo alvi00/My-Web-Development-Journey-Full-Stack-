@@ -150,3 +150,11 @@ let alvi = arr.some((el) => (el % 2 !== 0));
 // Output the result of the 'some' method, which is a boolean indicating whether at least one element is odd
 console.log(alvi); // Output: true
 
+
+
+//--------------------------------------/
+   //reduce
+//-------------------------------------//
+
+
+
