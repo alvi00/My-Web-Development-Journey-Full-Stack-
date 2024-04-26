@@ -133,3 +133,20 @@ let alvi = arr.every((el) => (el % 2 !== 0));
 
 // Output the result of the 'every' method, which is a boolean indicating whether all elements are odd
 console.log(alvi); // Output: true
+
+
+
+//--------------------------------------/
+   //some
+//-------------------------------------//
+
+// Define an array containing integers 1, 3, 5, 9, and 6
+let arr = [1, 3, 5, 9, 6];
+
+// Use the 'some' method to check if at least one element in the array 'arr' satisfies the condition
+// The condition checks if each element 'el' is odd (not divisible by 2)
+let alvi = arr.some((el) => (el % 2 !== 0));
+
+// Output the result of the 'some' method, which is a boolean indicating whether at least one element is odd
+console.log(alvi); // Output: true
+
