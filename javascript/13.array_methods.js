@@ -214,3 +214,11 @@ console.log(sum(1,2));//here output will be 3
 //--------------------------------------/
    //spread
 //-------------------------------------//
+
+
+let alvi = "alvi is a good boy";
+console.log(...alvi); // Spread syntax used with a string, which splits the string into individual characters and logs each character separately.
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log(...arr); // Spread syntax used with an array, which expands the elements of the array and logs each element separately.
+
