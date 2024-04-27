@@ -222,3 +222,25 @@ console.log(...alvi); // Spread syntax used with a string, which splits the stri
 let arr = [1, 2, 3, 4, 5, 6, 7, 8];
 console.log(...arr); // Spread syntax used with an array, which expands the elements of the array and logs each element separately.
 
+
+
+// Define an array containing odd numbers
+let odd = [1, 3, 5, 7, 9];
+
+// Define an array containing even numbers
+let even = [2, 4, 6, 8, 10];
+
+// Concatenate the 'odd' and 'even' arrays to create a new array containing all numbers
+let all = odd.concat(even);
+
+// Create a new array 'all2' by using spread syntax (...) to combine elements of 'odd' and 'even' arrays
+let all2 = [...odd, ...even];
+
+// Output the concatenated array 'all'
+console.log(all); // Output: [1, 3, 5, 7, 9, 2, 4, 6, 8, 10]
+
+// Output the array created using spread syntax 'all2'
+console.log(all2); // Output: [1, 3, 5, 7, 9, 2, 4, 6, 8, 10]
+
+
+
