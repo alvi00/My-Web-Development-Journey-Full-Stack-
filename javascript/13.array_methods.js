@@ -279,4 +279,18 @@ console.log(objcopy); // Output: { name: 'alvi', id: 12, arr: [ 1, 2, 3 ], passw
    //rest
 //-------------------------------------//
 
+// Define a function named 'sum' with a rest parameter '...args'
+function sum(...args) {
+    // Use the 'reduce' method to calculate the sum of all elements in the 'args' array
+    let alvi = args.reduce((sum, el) => (sum + el));
+    
+    // Log the calculated sum to the console
+    console.log(alvi);
+}
+
+// Call the 'sum' function with multiple arguments
+sum(1, 2, 3, 4, 5); // Output: 15 (1 + 2 + 3 + 4 + 5)
+
+
+
 
