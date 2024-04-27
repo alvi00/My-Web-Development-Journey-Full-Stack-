@@ -298,4 +298,23 @@ sum(1, 2, 3, 4, 5); // Output: 15 (1 + 2 + 3 + 4 + 5)
 //-------------------------------------//
 
 
+// Define an array containing names
+let arr = ["alvi", "Sami", "sakib", "lazna"];
+
+// Destructure the array 'arr'
+// Extract the first element into the variable 'winner'
+// Extract the second element into the variable 'runnerpur'
+// Extract the rest of the elements into the variable 'others'
+let [winner, runnerpur, ...others] = arr;
+
+// Output the value of the 'winner' variable
+console.log(winner); // Output: "alvi"
+
+// Output the value of the 'runnerpur' variable
+console.log(runnerpur); // Output: "Sami"
+
+// Output the value of the 'others' variable, which contains the rest of the elements
+console.log(others); // Output: ["sakib", "lazna"]
+
+
 
