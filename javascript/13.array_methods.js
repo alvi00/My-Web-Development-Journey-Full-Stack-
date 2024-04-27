@@ -190,5 +190,20 @@ console.log(final); // Output: 6
 
 
 //--------------------------------------/
-   //reduce
+   //default perameter
 //-------------------------------------//
+
+
+// Define a function named 'sum' with two parameters, 'a' and 'b'
+function sum(a, b = 3) {
+    // If 'b' is not provided when calling the function, it defaults to 3
+    // This is achieved using default parameter syntax: 'b = 3'
+    
+    // Return the sum of 'a' and 'b'
+    return a + b;
+}
+
+// Call the 'sum' function with 'a' set to 3 and 'b' not explicitly provided
+// Since 'b' is not provided, it defaults to 3
+console.log(sum(3)); // Output: 6 (3 + 3)
+
