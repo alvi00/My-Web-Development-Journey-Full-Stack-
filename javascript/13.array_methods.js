@@ -169,3 +169,26 @@ console.log(finalval); // Output: 10
 
 
 
+// Define an array containing integers
+let arr = [3, 4, 2, 5, 6, 3, 2, 1];
+
+// Use the 'reduce' method to find the maximum value in the array 'arr'
+// The arrow function passed to 'reduce' takes two parameters: 'max' (the accumulator) and 'el' (the current element)
+// On each iteration, the arrow function compares the current element 'el' with the accumulator 'max'
+// If the current element is greater than the accumulator, it becomes the new accumulator (the maximum value so far)
+let final = arr.reduce((max, el) => {
+    if (max < el) {
+        return el; // If the current element is greater than the accumulator, return the current element
+    } else {
+        return max; // Otherwise, return the accumulator
+    }
+});
+
+// Output the final value, which is the maximum value in the array
+console.log(final); // Output: 6
+
+
+
+//--------------------------------------/
+   //reduce
+//-------------------------------------//
