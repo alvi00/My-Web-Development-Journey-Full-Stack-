@@ -156,6 +156,16 @@ console.log(alvi); // Output: true
    //reduce
 //-------------------------------------//
 
+// Define an array containing integers 1, 2, 3, and 4
+let arr = [1, 2, 3, 4];
+
+// Use the 'reduce' method to calculate the sum of all elements in the array 'arr'
+// The arrow function passed to 'reduce' takes two parameters: 'res' (the accumulator) and 'el' (the current element)
+// On each iteration, 'res' accumulates the sum of the previous elements, and 'el' represents the current element being processed
+let finalval = arr.reduce((res, el) => (res + el));
+
+// Output the final value, which is the sum of all elements in the array
+console.log(finalval); // Output: 10
 
 
 
