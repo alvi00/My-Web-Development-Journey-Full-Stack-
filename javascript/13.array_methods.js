@@ -244,3 +244,34 @@ console.log(all2); // Output: [1, 3, 5, 7, 9, 2, 4, 6, 8, 10]
 
 
 
+
+
+//-----------------------//
+
+// Define an object 'obj' with properties 'name' and 'id'
+let obj = {
+    name: "alvi",
+    id: 12
+};
+
+// Add a new property 'arr' to the object 'obj' containing an array [1, 2, 3]
+obj.arr = [1, 2, 3];
+
+// Output the object 'obj'
+console.log(obj); // Output: { name: 'alvi', id: 12, arr: [ 1, 2, 3 ] }
+
+// Create a shallow copy of 'obj' using spread syntax and add a new property 'password' with value 123
+let objcopy = { ...obj, password: 123 };
+
+// Output the shallow copy of 'obj' with the new property 'password'
+console.log(objcopy); // Output: { name: 'alvi', id: 12, arr: [ 1, 2, 3 ], password: 123 }
+
+// Create a shallow copy of 'objcopy' and merge it with the array 'arr1'
+objcopy = { ...objcopy, ...arr1 };
+
+// Output the updated shallow copy of 'objcopy' with merged properties from both 'objcopy' and 'arr1'
+console.log(objcopy); // Output: { name: 'alvi', id: 12, arr: [ 1, 2, 3 ], password: 123, 0: 1, 1: 2, 2: 3, 3: 4, 4: 5 }
+
+
+
+
