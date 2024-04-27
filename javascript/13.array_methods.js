@@ -317,4 +317,35 @@ console.log(runnerpur); // Output: "Sami"
 console.log(others); // Output: ["sakib", "lazna"]
 
 
+// Define an object with properties
+let object = {
+    name: "alvi",
+    id: 12,
+    class: 22,
+    city: "faridpur"
+};
+
+// Destructure the object properties 'name' and 'city' into variables 'name' and 'city'
+let { name, city } = object;
+
+// Output the value of the 'name' variable
+console.log(name); // Output: "alvi"
+
+// Output the value of the 'city' variable
+console.log(city); // Output: "faridpur"
+
+// Destructure the object property 'name' into a variable 'name_ofobject'
+let { name: name_ofobject } = object;
+
+// Output the value of the 'name_ofobject' variable
+console.log(name_ofobject); // Output: "alvi"
+
+// Destructure the object property 'class' into a variable 'classname', and set a default value "pixel" for the 'mobile' variable
+let { class: classname, mobile = "pixel" } = object;
+
+// Output the value of the 'classname' variable
+console.log(classname); // Output: 22
+
+// Output the value of the 'mobile' variable
+console.log(mobile); // Output: "pixel"
 
