@@ -206,4 +206,8 @@ function sum(a, b = 3) {
 // Call the 'sum' function with 'a' set to 3 and 'b' not explicitly provided
 // Since 'b' is not provided, it defaults to 3
 console.log(sum(3)); // Output: 6 (3 + 3)
+console.log(sum(1,2));//here output will be 3
+//but we can not assign default permeters to the first values for like (a=4,b)this will make a problem and that is it when i will call the function sum(5), it will assign 5 to a but b will be undefined
+
+
 
