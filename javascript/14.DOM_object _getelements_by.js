@@ -36,4 +36,12 @@ for (let i = 0; i < images.length; i++) {
 //Select elements by tagname
 //`````````````````````````````````//
 
+// Retrieve all <p> elements from the DOM.
+let alvi = document.getElementsByTagName("p");
+
+// Log the collection of <p> elements to the console.
+console.log(alvi);
+
+// Modify the text content of the first <p> element to "alvi is a good boy".
+alvi[0].innerText = "alvi is a good boy";
 
