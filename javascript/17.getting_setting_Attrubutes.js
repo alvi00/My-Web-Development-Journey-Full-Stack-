@@ -12,3 +12,16 @@ alvi.setAttribute("id", "okita");
 
 // Log the updated value of the "id" attribute to the console.
 console.log(alvi.getAttribute("id"));
+
+
+//```````````````````````//
+//changing src attribute
+//```````````````````````//
+// Select the first <img> element in the document.
+let alvi = document.querySelector("img");
+
+// Retrieve the value of the "src" attribute of the selected <img> element.
+console.log(alvi.getAttribute("src"));
+
+// Set the value of the "src" attribute of the selected <img> element to "Assets/Man.png".
+alvi.setAttribute("src", "Assets/Man.png");
