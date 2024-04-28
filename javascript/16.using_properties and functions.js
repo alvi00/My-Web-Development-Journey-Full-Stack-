@@ -6,3 +6,10 @@ console.log(alvi.innerText);
 //shows the text that is visible in the webpage
 console.log(alvi.textContent);
 //shows the text how we wrote the text in the index.html file in vs code
+
+//manupulating texts
+// Update the visible text content of the selected <p> element to "I am Iron Nigga".
+alvi.innerText = "I am Iron Nigga";
+
+// Update the HTML content of the selected <p> element to "I am Iron <b>Nigga</b>".
+alvi.innerHTML = "I am Iron <b>Nigga</b>";
