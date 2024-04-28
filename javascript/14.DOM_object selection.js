@@ -18,4 +18,22 @@ imgobj.src="Assets/Man.png";
 //when selecting an element by classname it returns an collection
 
 
+// Retrieve all HTML elements with the class name "oldimg" from the DOM.
+let images = document.getElementsByClassName("oldimg");
+
+// Loop through each element found with the class name "oldimg".
+for (let i = 0; i < images.length; i++) {
+    // Update the 'src' attribute of each element to display the image "Man.png" from the "Assets" folder.
+    images[i].src = "Assets/Man.png";
+    // Log a message indicating the changes made along with the index of the current element.
+    console.log(`changes ${i}`);
+}
+
+
+
+
+//`````````````````````````````````//
+//Select elements by tagname
+//`````````````````````````````````//
+
 
