@@ -29,3 +29,14 @@ console.log(sakib);
 
 // Log the properties and methods of the selected element to the console in a detailed way.
 console.dir(alvi);
+
+
+// Select all <li> elements that are descendants of <ul> elements within elements having the class "pubInfo".
+let alvi = document.querySelectorAll(".pubInfo ul li");
+
+// Log the selected <li> elements to the console.
+console.log(alvi);
+
+// Log the properties and methods of the selected <li> elements to the console in a detailed way.
+console.dir(alvi);
+
