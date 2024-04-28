@@ -1,3 +1,8 @@
+//``````````````````````````````````````//
+//uses of innertext, innerhtml,textcontent
+//```````````````````````````````````````//
+
+
 // Select the first <p> element in the document.
 let alvi=document.querySelector("p");
 console.log(alvi.innerHTML);
@@ -13,3 +18,11 @@ alvi.innerText = "I am Iron Nigga";
 
 // Update the HTML content of the selected <p> element to "I am Iron <b>Nigga</b>".
 alvi.innerHTML = "I am Iron <b>Nigga</b>";
+
+
+// Select the first <h1> element in the document.
+let alvi = document.querySelector("h1");
+
+// Update the HTML content of the <h1> element to wrap its existing content with an underline tag.
+alvi.innerHTML = `<u>${alvi.innerHTML}</u>`;
+
