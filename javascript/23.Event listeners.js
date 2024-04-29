@@ -47,3 +47,31 @@ para.addEventListener("mouseenter", alvi);
 // Add an event listener to the <p> element for the "mouseleave" event,
 // which will call the anas function when the mouse leaves the <p> element
 para.addEventListener("mouseleave", anas);
+
+
+
+
+//```````````````````````````````//
+//this in event listerners
+//```````````````````````````````//
+
+// Select the first <button> element in the document and assign it to the variable btn
+let btn = document.querySelector("button");
+
+// Select the first <h1> element in the document and assign it to the variable h
+let h = document.querySelector("h1");
+
+// Define a function named alvi that changes the background color of the element that triggered the event to blue
+// Note: Since you're using a regular function expression (function keyword), `this` inside `alvi` refers to the element that triggered the event
+let alvi = function() {
+    // Change the background color of the element that triggered the event to blue
+    this.style.backgroundColor = "blue";
+};
+
+// Add an event listener to the button for the "click" event,
+// which will call the alvi function when the button is clicked
+btn.addEventListener("click", alvi);
+
+// Add an event listener to the <h1> element for the "mouseenter" event,
+// which will call the alvi function when the mouse enters the <h1> element
+h.addEventListener("mouseenter", alvi);
