@@ -16,6 +16,7 @@ let alvi = document.querySelector("#alvi");
 
 // Add an event listener to the "input" event of the alvi input field,
 // which will call a function when the value of the input field changes
+//input listerner helps to see small changes
 alvi.addEventListener("input", function() {
     // Log a message to the console indicating that the value has changed
     console.log("Value changed");
@@ -25,6 +26,7 @@ alvi.addEventListener("input", function() {
 
 // Add an event listener to the "change" event of the alvi input field,
 // which will call a function when the value of the input field changes and the field loses focus
+//changes help to see end changes in the text
 alvi.addEventListener("change", function() {
     // Log a message to the console indicating that the value has changed
     console.log("Value changed");
