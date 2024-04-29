@@ -32,8 +32,29 @@
 
 
 //``````````````````````````````````//
-//This is inline way for onclick
-//But is is not recommended
+//This is how you use onclick by js
 //```````````````````````````````````//
+
+
+// Select the first <button> element in the document
+let btn = document.querySelector("button");
+
+// Assign a function to the onclick event handler of the button using an arrow function
+btn.onclick = () => {
+    // Log a message to the console when the button is clicked
+    console.log("The button was clicked");
+};
+
+// Select the element with class "alvi"
+let btn2 = document.querySelector(".alvi");
+
+// Define a function named alart that displays an alert
+let alart = () => {
+    alert("This is an alert");
+};
+
+// Assign the alart function to the onclick event handler of btn2
+btn2.onclick = alert;
+
 
 
