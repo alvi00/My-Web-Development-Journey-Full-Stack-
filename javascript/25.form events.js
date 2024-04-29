@@ -45,6 +45,11 @@ let okita = function(event) {
     // Select the element with the id "anas" and assign it to the variable anas
     let anas = document.querySelector("#anas");
 
+    //this is another way of selecting 
+    // let alvi = this.elements[0];
+    // let anas = this.elements[1]; 
+
+  
     // Log the value of the "alvi" input field to the console
     console.dir(alvi.value);
     
