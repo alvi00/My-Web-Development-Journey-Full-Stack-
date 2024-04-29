@@ -1,5 +1,6 @@
 //`````````````````````````````````//
 //Adding Event listerners
+//There are a lot of other evnet listeners known it from mdn
 //``````````````````````````````````//
 // Select the first <button> element in the document
 let btn = document.querySelector("button");
