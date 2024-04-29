@@ -33,3 +33,24 @@ alvi.addEventListener("change", function() {
     // Log the current value of the input field to the console
     console.log(alvi.value);
 });
+
+
+
+
+//Small practise
+
+// Select the first <h1> element in the document and assign it to the variable h
+let h = document.querySelector("h1");
+
+// Select the element with the class "area" and assign it to the variable area
+let area = document.querySelector(".area");
+
+// Select the first <p> element in the document and assign it to the variable p
+let p = document.querySelector("p");
+
+// Add an event listener to the "input" event of the area input field,
+// which will call a function whenever the value of the input field changes
+area.addEventListener("input", function() {
+    // Set the text content of the <p> element to the value of the input field
+    p.innerText = area.value;
+});
