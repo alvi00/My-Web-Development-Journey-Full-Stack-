@@ -58,3 +58,7 @@ btn2.onclick = alert;
 
 
 
+
+//``````````````````````````````````//
+//This is how you use on mouse enter by js
+//```````````````````````````````````//
