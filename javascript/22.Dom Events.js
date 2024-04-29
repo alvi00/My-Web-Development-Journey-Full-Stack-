@@ -62,3 +62,16 @@ btn2.onclick = alert;
 //``````````````````````````````````//
 //This is how you use on mouse enter by js
 //```````````````````````````````````//
+
+// Select the first <button> element in the document
+let btn = document.querySelector("button");
+
+// Define a function named alvi that logs a message to the console
+let alvi = () => {
+    console.log("This button was hovered");
+};
+
+// Assign the alvi function to the onmouseenter event handler of the button
+btn.onmouseenter = alvi;
+
+
