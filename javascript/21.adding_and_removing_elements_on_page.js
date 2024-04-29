@@ -22,3 +22,23 @@ anas.append(alvi);
 
 // Prepend the newly created <button> element to the "box ul" element as its first child.
 anas.prepend(alvi);
+
+
+// Create a new button element
+let alvi = document.createElement("button");
+alvi.innerText = "Click ME";
+
+// Select the .box element
+let anas = document.querySelector(".box");
+
+// Insert the button before the .box element
+anas.insertAdjacentElement("beforebegin", alvi.cloneNode(true));
+
+// Insert the button as the first child of the .box element
+anas.insertAdjacentElement("afterbegin", alvi.cloneNode(true));
+
+// Insert the button as the last child of the .box element
+anas.insertAdjacentElement("beforeend", alvi.cloneNode(true));
+
+// Insert the button after the .box element
+anas.insertAdjacentElement("afterend", alvi.cloneNode(true));
