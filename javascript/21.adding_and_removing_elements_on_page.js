@@ -1,4 +1,6 @@
 //````````````````//
+//Adding elements
+//```````````````````//
 // Create a new <button> element.
 let alvi = document.createElement("button");
 
@@ -42,3 +44,15 @@ anas.insertAdjacentElement("beforeend", alvi.cloneNode(true));
 
 // Insert the button after the .box element
 anas.insertAdjacentElement("afterend", alvi.cloneNode(true));
+
+
+
+
+
+
+
+
+
+//````````````````//
+//Removing Elements
+//```````````````````//
