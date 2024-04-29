@@ -56,3 +56,19 @@ anas.insertAdjacentElement("afterend", alvi.cloneNode(true));
 //````````````````//
 //Removing Elements
 //```````````````````//
+
+// Select the element with the class "box".
+let box = document.querySelector(".box");
+
+// Select the <ul> element within the element with the class "box".
+let ul = document.querySelector(".box ul");
+
+// Remove the <ul> element from the DOM.
+box.removeChild(ul);
+
+// Remove the element with the class "box" from the DOM.
+box.remove();
+
+// Remove the <h4> element from the DOM.
+h4.remove();
+
