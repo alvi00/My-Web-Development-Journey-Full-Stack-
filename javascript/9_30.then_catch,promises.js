@@ -48,3 +48,68 @@ function savetodatabase(data) {
       console.log(reject);
   });
   
+
+
+
+
+
+
+
+//```````````````````````````````````````````````````````//
+//Example
+//````````````````````````````````````````````````````````//
+// Select the first <h1> element in the document and assign it to the variable h1
+let h1 = document.querySelector("h1");
+
+// Define a function named changeColor that takes color and delay as parameters and returns a Promise
+function changeColor(color, delay) {
+    return new Promise((resolve, reject) => {
+        // Set a timeout to execute the following code after the specified delay
+        setTimeout(() => {
+            // Simulate a failure condition (e.g., if color is "black")
+            if (color === "black") {
+                // If the color is "black", reject the Promise with an appropriate error message
+                reject("Failed to change color. Color cannot be black.");
+            } else {
+                // If the color is not "black", change the color of the h1 element to the specified color
+                h1.style.color = color;
+                // Resolve the Promise with a success message
+                resolve("Color is changed");
+            }
+        }, delay);
+    });
+}
+
+// Call the changeColor function with the color "red" and a delay of 1000 milliseconds
+chanecolor("red", 1000)
+    // Chain a then() method to handle the resolved Promise (success case)
+    .then(() => {
+        // Log a success message to the console when the color is changed to red
+        console.log("Red is done");
+        // Call the changeColor function again with the color "yellow" and a delay of 1000 milliseconds
+        return changeColor("yellow", 1000);
+    })
+    // Chain another then() method to handle the resolved Promise (success case)
+    .then(() => {
+        // Log a success message to the console when the color is changed to yellow
+        console.log("Yellow is done");
+        // Call the changeColor function again with the color "blue" and a delay of 1000 milliseconds
+        return changeColor("blue", 1000);
+    })
+    // Chain another then() method to handle the resolved Promise (success case)
+    .then(() => {
+        // Log a success message to the console when the color is changed to blue
+        console.log("Blue is done");
+        // Call the changeColor function again with the color "black" and a delay of 1000 milliseconds
+        return changeColor("black", 1000);
+    })
+    // Chain another then() method to handle the resolved Promise (success case)
+    .then(() => {
+        // Log a success message to the console when the color is changed to black
+        console.log("Black is done");
+    })
+    // Chain a catch() method to handle any rejected Promise (failure case)
+    .catch(() => {
+        // Log a failure message to the console if any color change operation failed
+        console.log("The color is not changed");
+    });
