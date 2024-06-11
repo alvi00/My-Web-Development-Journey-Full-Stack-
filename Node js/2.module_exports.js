@@ -1,3 +1,10 @@
+
+//````````````````````````````````````````//
+
+// This is process you can export any information within the directory between files
+
+//`````````````````````````````````````````//
+
 // This file will set the values
 
 // Define an arrow function 'sum' that takes two arguments (a, b) and returns their sum
