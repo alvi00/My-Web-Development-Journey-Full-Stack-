@@ -37,3 +37,7 @@ const obj = require("./2.module_exports");
 
 // Print the imported 'obj' object to the console
 console.log(obj);
+
+
+
+/
