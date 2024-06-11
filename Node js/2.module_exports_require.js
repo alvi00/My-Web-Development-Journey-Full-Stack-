@@ -40,4 +40,14 @@ console.log(obj);
 
 
 
-/
+//`````````````````````````````````````````//
+//In this process you can export informations between two directories
+//Suppose i have a files calles fruits then i can a js file there called apple
+//in that i saved all my info of apple
+//then i have to export the info to the index.js file
+//index.js will require and export it
+//then other directory can require the info
+
+//```````````````````````````````````````//
+
+
