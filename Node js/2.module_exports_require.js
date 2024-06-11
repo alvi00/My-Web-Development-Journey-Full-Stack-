@@ -40,6 +40,7 @@ console.log(obj);
 
 
 
+
 //`````````````````````````````````````````//
 //In this process you can export informations between two directories
 //Suppose i have a files calles fruits then i can a js file there called apple
@@ -50,4 +51,47 @@ console.log(obj);
 
 //```````````````````````````````````````//
 
+//in fruits directory
+//in apple.js file
+
+// Define an object 'obj' representing an apple with its name and color
+let obj = {
+    name: "Apple",
+    color: "Red"
+};
+
+// Export the 'obj' object so it can be used in other files
+module.exports = obj;
+
+//in bannana.js file
+// Define an object 'obj' representing a banana with its name and color
+let obj = {
+    name: "Banana",
+    color: "Yellow"
+};
+
+// Export the 'obj' object so it can be used in other files
+module.exports = obj;
+
+//in index.js file
+// Import the 'apple' object from 'apple.js'
+let apple = require("./apple");
+
+// Import the 'banana' object from 'banana.js'
+let banana = require("./banana");
+
+// Create an array 'arr' containing the 'apple' and 'banana' objects
+let arr = [apple, banana];
+
+// Export the 'arr' array so it can be used in other files
+module.exports = arr;
+
+
+//in other directory
+
+// Import the 'arr' array from the 'fruits' directory
+const fruits = require("./fruits");
+
+// Print the name of the first fruit in the array to the console
+console.log(fruits[0].name);
 
