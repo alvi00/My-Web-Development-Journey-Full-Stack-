@@ -15,3 +15,9 @@ figlet("Hello World!!", function (err, data) {
   }
   console.log(data);
 });
+
+
+//Then comes package.json in this file all the infoes of  the depencies are there
+//so if there is no node module file
+//we can use npm install to install all the dependencies
+//Then if we wanna have our own package.json file then use npm init
