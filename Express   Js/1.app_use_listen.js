@@ -1,3 +1,7 @@
+//At first, i have to do npm init
+//then I have to install Express js
+
+
 // Import the Express module
 const express = require('express');
 
