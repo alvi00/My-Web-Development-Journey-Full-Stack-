@@ -7,9 +7,10 @@
 </head>
 <body>
     <h1>Your dice number is <%= random %></h1>
-    //This is how you can use if else
     <% if(random==6) { %>
         <h2>You can roll again</h2>
-    <% } %>
+    <% } else { %>
+     <h2>Pass to next person</h2>
+    <% }%>
 </body>
 </html>
