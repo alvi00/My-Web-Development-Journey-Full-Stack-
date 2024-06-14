@@ -5,10 +5,11 @@
 
 ```mermaid
 graph TD
-    H[EJS] --> G[Express.js]
-    G --> F[Node.js]
-    F --> E[APIs]
-    E --> D[JavaScript]
-    D --> C[Bootstrap]
-    C --> B[CSS]
-    B --> A[HTML]
+    A[HTML] --> B[CSS]
+    B --> C[Bootstrap]
+    C --> D[JavaScript]
+    D --> E[APIs]
+    E --> F[Node.js]
+    F --> G[Express.js]
+    G --> H[EJS]
+
