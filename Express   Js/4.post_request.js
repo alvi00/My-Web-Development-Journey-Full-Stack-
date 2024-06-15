@@ -1,6 +1,10 @@
 const express=require("express");
 const app=express();
 const port =8080;
+//This line is for for post request the infos are in request body not in url
+//so to make it understandable for express we write this two lines
+//first one for info send throw encoded url
+//second one is for info send by json
 app.use(express.urlencoded({extended : true}));
 app.use(express.json());
 app.listen(port,()=>{
@@ -19,6 +23,7 @@ app.get("/register",(req,res)=>{
 });
 
 app.post("/register",(req,res)=>{
+    //this is how info can be accessed from req body
     let { name, password } = req.body;
     console.log(name); 
     res.send("Post request");
