@@ -7,7 +7,7 @@ use college;
 create table user(
 id int,
 age int check(age>=18 and age<=40),
-name varchar(50) not null unique,
+name varchar(50) not null,
 email varchar(50) unique,
 follower int default 0,
 following int default 0
