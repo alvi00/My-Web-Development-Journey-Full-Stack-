@@ -69,7 +69,9 @@ User.findByIdAndUpdate("66968e7119001756527521c9", { age: 11 }, { new: true })
   });
 
 
-//here await Listing.findByIdAndUpdate(id,{...req.body.listing}); by this ...req.body.listing all the edits of the key values will be done auto if in form I do like this  <input type="text" name="listing[tittle]" value=<%= listing.tittle %>> this thing listing[tittle] 
+//here await Listing.findByIdAndUpdate(id,{...req.body.listing}); 
+//by this ...req.body.listing all the edits of the key values will be done auto if in form I do like this 
+//<input type="text" name="listing[tittle]" value=<%= listing.tittle %>> this thing listing[tittle] 
 
 app.put("/listings/:id", async (req, res) => {
   try {
