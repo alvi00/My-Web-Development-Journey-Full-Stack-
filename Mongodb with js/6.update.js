@@ -67,3 +67,36 @@ User.findByIdAndUpdate("66968e7119001756527521c9", { age: 11 }, { new: true })
     // Log the error if the update operation fails
     console.log(err);
   });
+
+
+//here await Listing.findByIdAndUpdate(id,{...req.body.listing}); by this ...req.body.listing all the edits of the key values will be done auto if in form I do like this  <input type="text" name="listing[tittle]" value=<%= listing.tittle %>> this thing listing[tittle] 
+
+app.put("/listings/:id", async (req, res) => {
+  try {
+    let { id } = req.params;
+    await Listing.findByIdAndUpdate(id,{...req.body.listing});
+    res.redirect(`/listings/${id}`);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send("Error fetching listings");
+  }
+});
+
+//Context of this 
+    <form action="/listings/<%=listing._id%>?_method=PUT" method="post">
+        <input type="text" name="listing[tittle]" value=<%= listing.tittle %>>
+        <br><br>
+        <textarea name="listing[description]" cols="30" rows="10"><%= listing.description %></textarea>
+        <br><br>
+        <input type="text" name="listing[image]" type="text" value=<%= listing.image %>>
+        <br><br>
+        <input type="number" name="listing[price]" value=<%= listing.price %>>
+        <br><br>
+        <input type="text" name="listing[location]" value=<%= listing.location %>>
+        <br><br>
+        <input type="text" name="listing[country]" value=<%= listing.country %>>
+        <br><br>
+        <button>Submit</button>
+        <br><br>
+    </form>
+
