@@ -1,0 +1,29 @@
+h1{
+    display: inline;
+}
+span{
+    display: block;
+}
+span{
+    /* background-color: pink; */
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    height:20px;
+    width: 20px;
+}
+div{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    height:20px;
+    width: 20px;
+}
+.alvi{
+    border: 2px solid black;
+    margin: 5px;
+    display:inline-block ;
+}
+#anas{
+    display: none;
+}

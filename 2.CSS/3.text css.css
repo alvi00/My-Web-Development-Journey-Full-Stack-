@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  text-decoration: underline red dotted;
+  letter-spacing: 10px;
+}
+
+p {
+  text-align: justify;
+  font-weight: 200;
+  text-decoration: underline purple double;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: Papyrus;
+
+}
+h2 {
+  text-align: left;
+  text-decoration: line-through pink wavy;
+}
+
+h5 {
+  text-align: left;
+}
+a{
+    text-decoration: none;
+    font-family: League Spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: underline double teal;
+    text-transform: uppercase;
+}
+
+h3{
+    color: #ffa511;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 1.4;
+    font-family: League Spartan;
+    text-decoration: underline teal double;
+    text-transform: uppercase;
+
+}

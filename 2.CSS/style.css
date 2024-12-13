@@ -1,0 +1,92 @@
+h3{
+  color: aqua !important;
+}
+
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+h1,
+h3 {
+  color: brown;
+}
+#login {
+  color: aqua;
+  background-color: black;
+}
+
+.upvote_button {
+  color: brown;
+  font-weight: bold;
+}
+
+#myid p {
+  color: green;
+  text-align: justify;
+  font-weight: 700;
+}
+
+ div p button#exit_button{
+    color: blue;
+    background-color: aqua;
+}
+
+p.post a{
+  text-decoration: none;
+}
+
+p+h3{
+  text-decoration:underline red double;
+}
+.upvote_button+button{
+  background-color: rgb(92, 92, 165);
+}
+
+
+span>button{
+  text-decoration: underline double;
+}
+
+input[placeholder="username"]{
+  background-color: aqua;
+}
+
+input[placeholder="password"]{
+  background-color: red;
+}
+
+button[class="upvote_button"]{
+  background-color: brown;
+}
+
+button:hover{
+  background-color: black;
+  color:white;
+}
+h3:hover{
+  text-decoration: none;
+}
+h3:active{
+  color: blueviolet;
+}
+
+input[type="radio"]:checked+label{
+  color: brown;
+  font-weight: bold;
+}
+
+.post:nth-of-type(odd){
+  background-color: brown;
+}
+
+
+h1::first-letter{
+color: aqua;
+}
+
+p::first-line {
+  color: brown;
+}
+
+p::selection{
+  background-color: aqua;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forms</title>
+</head>
+<body>
+
+  <!-- Section 1: Basic Form -->
+  <div>
+    <form action="action">
+      <label for="username">Username :</label>
+      <input type="text" id="username" placeholder="Enter username" />
+      <button type="submit">Submit</button>
+      <button type="button">Button</button>
+      <button type="reset">Reset</button>
+      <button type="menu">Menu</button>
+    </form>
+  </div>
+  <hr />
+
+  <!-- Section 2: Form with External Action -->
+  <div>
+    <form action="https://www.youtube.com/watch">
+      <label for="name">Username :</label>
+      <input type="text" placeholder="Enter name" name="v" id="name" />
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <hr />
+
+  <!-- Section 3: Form with Google Search -->
+  <form action="https://www.google.com/search">
+    <label for="Search">Search on Google :</label>
+    <input type="text" id="Search" name="q" placeholder="Search" />
+    <button type="submit">Search</button>
+    <input type="checkbox" name="c" id="c" />
+    <label for="c">I am alvi</label>
+    <hr />
+    <input type="checkbox" id="alvi" name="a" value="alvi" />
+    <label for="alvi">Alvi</label>
+    <hr />
+    <label for="aaa">Select option</label>
+    <select name="aaa" id="aa">
+      <option value="d">Dev</option>
+      <option value="v">Vac</option>
+    </select>
+
+    <label for="11">Alvi</label>
+    <input type="radio" name="alvi" id="11" value="11" />
+    <label for="11">Sami</label>
+    <input type="radio" name="alviq" id="11" value="11" />
+    <hr />
+    <input type="range" step="10" min="0" max="100" />
+  </form>
+  <hr />
+
+  <!-- Section 4: Registration Form -->
+  <form action="action">
+    <h1>Registration Form</h1>
+    <div>
+      <input type="text" name="alvi" id="" placeholder="First Name" />
+      <input type="text" name="alvi" id="" placeholder="Last Name" />
+    </div>
+    <div>
+      <label for="gender">Please Select Gender</label>
+      <select name="gender" id="aa">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </div>
+
+    <input type="checkbox">
+    <button>Register</button>
+  </form>
+
+</body>
+</html>

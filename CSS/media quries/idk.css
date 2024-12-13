@@ -1,9 +1,0 @@
-div{
-    background-color: red;
-}
-#green{
-    background-color: gray;
-    position: relative;
-    bottom: 2px;
-    z-index: -1;
-}

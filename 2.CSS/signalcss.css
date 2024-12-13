@@ -1,0 +1,32 @@
+
+div[class="outerdiv"]{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+
+div[class="innerdiv1"]{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px;
+}
+div[class="innerdiv2"]{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 10px;
+}
+div[class="innerdiv3"]{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: green;
+    margin: 10px;
+}
