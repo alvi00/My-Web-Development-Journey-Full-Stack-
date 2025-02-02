@@ -19,4 +19,6 @@ graph TD
     L --> M[MongoDb]
     M --> N[Mongodb with js]
     N --> O[React]
+    O-->P[Next.Js]
+    P->>Q[php]
 
